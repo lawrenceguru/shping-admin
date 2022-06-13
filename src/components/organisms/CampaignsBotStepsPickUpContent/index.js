@@ -1,0 +1,3 @@
+import CampaignsBotStepsPickUpContent from './CampaignsBotStepsPickUpContent'
+
+export default CampaignsBotStepsPickUpContent

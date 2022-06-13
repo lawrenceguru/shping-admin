@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="25px" height="17px" viewBox="0 0 25 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <!-- Generator: Sketch 56.2 (81672) - https://sketch.com -->
+  <title>language-russia</title>
+  <desc>Created with Sketch.</desc>
+  <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <g id="language-popup" transform="translate(-22.000000, -74.000000)" fill-rule="nonzero">
+      <g id="language" transform="translate(6.000000, 3.000000)">
+        <g id="Group-36" transform="translate(16.000000, 71.116406)">
+          <g id="language-russia">
+            <path d="M24.381,5.3377619 L0,5.3377619 L0,0.43352381 C0,0.201380952 0.188238095,0.0131428571 0.420380952,0.0131428571 L23.960619,0.0131428571 C24.1927619,0.0131428571 24.381,0.201380952 24.381,0.43352381 L24.381,5.3377619 L24.381,5.3377619 Z" id="Path" fill="#F5F5F5"></path>
+            <path d="M23.9605714,15.9869048 L0.420380952,15.9869048 C0.188238095,15.9869048 0,15.7986667 0,15.5665238 L0,10.6623333 L24.3809524,10.6623333 L24.3809524,15.5665238 C24.3809524,15.7987143 24.1927143,15.9869048 23.9605714,15.9869048 Z" id="Path" fill="#FF4B55"></path>
+            <rect id="Rectangle" fill="#41479B" x="0" y="5.33766667" width="24.3809524" height="5.32428571"></rect>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

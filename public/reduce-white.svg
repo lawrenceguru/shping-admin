@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="18px" height="2px" viewBox="0 0 18 2" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>reduce</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Assets" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Style-Guide---Icons" transform="translate(-366.000000, -975.000000)" fill-rule="nonzero" fill="#ffffff">
+            <path d="M383.030833,976 L383.030833,975.5 L382.530833,975.5 L382.530833,976.40517 L383.030833,976.40517 L383.030833,975.90517 L382.578248,975.90517 L366.952585,975.90517 L366.5,975.90517 L366.5,976.40517 L367,976.40517 L367,975.5 L366.5,975.5 L366.5,976 L366.952585,976 L382.578248,976 L383.030833,976 Z M366.952585,975 L366.5,975 L366,975 L366,975.5 L366,976.40517 L366,976.90517 L366.5,976.90517 L366.952585,976.90517 L382.578248,976.90517 L383.030833,976.90517 L383.530833,976.90517 L383.530833,976.40517 L383.530833,975.5 L383.530833,975 L383.030833,975 L382.578248,975 L366.952585,975 Z" id="reduce"></path>
+        </g>
+    </g>
+</svg>

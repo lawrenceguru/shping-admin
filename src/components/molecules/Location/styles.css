@@ -1,0 +1,68 @@
+.createModal .ant-modal-footer,
+.delModal .ant-modal-footer {
+  padding: 0 !important;
+}
+.delModal button {
+  float: right;
+  margin-left: 10px;
+}
+.ant-form-item-required::before {
+  content: '' !important;
+}
+.geoAddButton,
+.geoAddButton:focus,
+.geoAddButton:visited {
+  background-color: #5d5fef !important;
+  border-color: transparent !important;
+}
+.mb-10 {
+  margin-bottom: 10px !important;
+}
+.country,
+.ant-form-item-required,
+.ant-checkbox-wrapper > span {
+  font-family: Roboto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 26px;
+}
+span.ant-select-selection-item-content,
+.contextAudienceTitle {
+  font-family: Roboto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+}
+h4.geoTopic {
+  font-family: Roboto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 14px;
+}
+.ant-radio-button-wrapper > span {
+  font-family: Roboto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+}
+.ant-collapse {
+  background: transparent !important;
+}
+.ant-collapse-header {
+  padding-bottom: 0;
+}
+.rageDatePicker input {
+  padding: 5px !important;
+}
+.lastScanDate input {
+  padding: 5px !important;
+  display: block;
+}
+.lastScanDate {
+  width: 100%;
+}
+.cancelButton {
+  margin-right: 20px;
+  padding: 5px 45px;
+}

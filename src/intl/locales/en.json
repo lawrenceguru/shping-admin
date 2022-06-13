@@ -1,0 +1,3547 @@
+{
+  "common": {
+    "coins": "{value} SHPING",
+    "notProvided": "Not provided",
+    "inputPlaceholder": "Input value",
+    "selectPlaceholder": "Select value",
+    "android": "Android",
+    "ios": "IOS",
+    "baidu": "Baidu",
+    "from": "From",
+    "to": "To",
+    "startDate": "Start Date",
+    "endDate": "End Date",
+    "isAbsent": "None",
+    "contributorsStatus": {
+      "newbie": "Newbie",
+      "expert": "Expert",
+      "guru": "Guru"
+    },
+    "active": "Active",
+    "inactive": "Inactive",
+    "cancel": "Cancel",
+    "save": "Save",
+    "back": "Back"
+  },
+  "days": {
+    "monday": "Monday",
+    "tuesday": "Tuesday",
+    "wednesday": "Wednesday",
+    "thursday": "Thursday",
+    "friday": "Friday",
+    "saturday": "Saturday",
+    "sunday": "Sunday"
+  },
+  "navigation": {
+    "roi": "Overview",
+    "spend": "Spend",
+    "shoppinglists": "Shopping List Usage",
+    "overview": "Performance",
+    "cashout": "Coins",
+    "audience": "Audience",
+    "geography": "Geography",
+    "conversion": "Conversion",
+    "quickStart": "Quick start",
+    "analytics": "Analytics",
+    "campaigns": "Campaigns",
+    "contributors": "Contributors",
+    "reviews": "Reviews",
+    "products": "Products",
+    "todo": "ToDo cards",
+    "trackAndTrace": "Track & Trace",
+    "users": "App users",
+    "settings": "Settings",
+    "signout": "Sign out",
+    "profile": "Profile",
+    "plan": "Shping Marketing Plan",
+    "payment": "Payment history",
+    "index": "Index fields",
+    "integrations": "Integrations",
+    "myTeam": "My team",
+    "autoTopup": "Auto Topup",
+    "documents": "Documents",
+    "timeline": "Initial Timeline",
+    "customers": "Our Customers",
+    "customersImport": "All import tasks",
+    "storecard": "Store cards",
+    "serializedProducts": "Serialized Products",
+    "inventoryReports": "Inventory reports",
+    "operations": "T&T Operations",
+    "supplyChain": "Supply Chain",
+    "serializationTasks": "Serialization Tasks"
+  },
+  "loginPage": {
+    "form": {
+      "signIn": "Login",
+      "signInToContinue": "SIGN IN TO CONTINUE",
+      "email": "Email",
+      "password": "Password",
+      "emailPlaceholder": "you@domain.com",
+      "passwordPlaceholder": "Your password",
+      "rememberMeLabel": "Remember Me",
+      "forgotLabel": "Forgot your password?",
+      "forgotPassword": "Forgot password?"
+    }
+  },
+  "restoreSendEmailPage": {
+    "form": {
+      "submit": "Send email",
+      "emailPlaceholder": "you@domain.com",
+      "emailLabel": "Email",
+      "pleaseEnter": "Please enter the email address you'd like your password reset information sent to."
+    },
+    "title": "Restore password"
+  },
+  "restorePasswordPage": {
+    "form": {
+      "submit": "Change password",
+      "confirmPasswordPlaceholder": "Password",
+      "confirmPasswordLabel": "Confirm password",
+      "newPasswordPlaceholder": "Password",
+      "newPasswordLabel": "New password",
+      "enterNew": "Enter new password"
+    },
+    "title": "Restore password"
+  },
+  "indexFieldsPage": {
+    "defaultIndexFields": "Default index fields",
+    "customIndexFields": "Custom index fields",
+    "addIndexFields": "Add index fields"
+  },
+  "productsPage": {
+    "Product Catalogue": "Product Catalogue",
+    "Recalled Products": "Recalled Products",
+    "Receipts Mapping": "Receipts Mapping"
+  },
+  "receiptsMapping": {
+    "name": "Name",
+    "action": "Action",
+    "status": "Status",
+    "gtin": "GTIN",
+    "id": "ID",
+    "ts": "TS",
+    "acceptAction": "Are you sure to accept this item?",
+    "rejectAction": "Are you sure to reject this item?",
+    "deleteAction": "Are you sure to delete this item?",
+    "accept": "Accept",
+    "reject": "Reject",
+    "namePlaceHolder": "Enter receipt name",
+    "storePlaceHolder": "Select store",
+    "fromPlaceHolder": "From",
+    "toPlaceHolder": "To",
+    "map_gtin": "MAP GTIN",
+    "map_gtin_require_message": "Enter name or GTIN!",
+    "scanHeader": "User scans"
+  },
+  "productCatalogue": {
+    "deleteProduct": "Delete product",
+    "deleteModalMessage": "Are you sure to delete {gtin} product",
+    "deleteField": "Delete field",
+    "equal": "Equal",
+    "notEqual": "Not equal",
+    "addProduct": "Add product",
+    "backToTop": "Back to top"
+  },
+  "importProducts": {
+    "importWithCsv": "Import Products",
+    "uploadHeading": "Upload CSV File",
+    "uploadSelect": "Upload CSV File",
+    "formatHeading": "Define CSV Format",
+    "columnMapping": "Columns Mapping",
+    "statusHeading": "Status",
+    "successMessage": "Import successful",
+    "errorMessage": "Please select at least 1 row in Other columns",
+    "errorWithWidgets": "Please fill widgets and fields values in selected columns",
+    "errorCertificates": "Please select at least 1 title field for certificate widget",
+    "importFailed": "Import Failed: {message}",
+    "gtinErrorMessage": "Please select GTIN column",
+    "nameErrorMessage": "Please select Name column",
+    "formatPlaceholder": "Enter name of csv column eg. GTIN, name",
+    "csvPreviewLabel": "CSV format preview ({numerator}/{denominator} rows)",
+    "toFormatLabel": "Next: Formatting",
+    "importHistoryLabel": "Import Status",
+    "firstRowHeader": "First row is header row",
+    "statusOrder": "Shown as Newest to Oldest, Report saved for at least 12 hours",
+    "sourceOptions": "A source options:",
+    "noRecordFound": "No record found for import status history.",
+    "importLabel": "Import #{count}",
+    "startedLabel": "Started",
+    "processedLabel": "{numerator} / {denominator} - {percent}% processed",
+    "messageLabel": "Result",
+    "statusLabel": "Status",
+    "failedLabel": "Failed",
+    "dateLabel": "Date",
+    "totalLines": "Total Lines",
+    "delimiter": "Select delimeter",
+    "isCDN": "is CDN",
+    "mapping": {
+      "title": "GPC Mapping",
+      "gtin": "GTIN",
+      "name": "Name",
+      "brand": "Brand",
+      "segment": "Segment",
+      "family": "Family",
+      "class": "Class",
+      "brick": "Brick",
+      "startImport": "Start Import",
+      "selectColumn": "Select a column",
+      "back": "Back",
+      "selectPlaceholder": "Select...",
+      "otherColumns": {
+        "title": "Other columns",
+        "import": "Import",
+        "widgetGroup": "Widget group",
+        "widget": "Widget",
+        "csvColumn": "CSV Column",
+        "field": "Field",
+        "options": "Options",
+        "position": "Position"
+      }
+    },
+    "importStatus": {
+      "tasks": "tasks",
+      "errors": "errors",
+      "error": "Error",
+      "line": "Line",
+      "column": "Column",
+      "value": "Value",
+      "success": "Success",
+      "done": "Done",
+      "started": "Started"
+    }
+  },
+  "comingSoon": "Coming soon",
+  "spend": {
+    "header": "Spend",
+    "crossMarketing": {
+      "modes": {
+        "document": "Ads",
+        "product": "Products"
+      },
+      "title": "Competitors Ads",
+      "image": "Image",
+      "document": "Hero Product",
+      "product": "Competitors Product",
+      "impressions": "Impressions",
+      "visits": "Ad Clicks",
+      "conversation": "Conversions %",
+      "interactions": "Product Page Interactions",
+      "users": "Users"
+    },
+    "streamTable": {
+      "title": "Summary",
+      "streams": {
+        "total": "Total",
+        "organicProductScans": "Organic Product Scans",
+        "shoppingLists": "Shopping Lists Traffic",
+        "featuredProductsTraffic": "Featured Products Traffic",
+        "competitorsTraffic": "Competitor's Traffic",
+        "other": "Other"
+      },
+      "clicks": {
+        "title": "Clicks",
+        "socialLinksHeader": "Social Link Clicks",
+        "adClicksHeader": "Ad Clicks",
+        "otherHeader": "Other Cliсks",
+        "costHeader": "Cost"
+      },
+      "video": {
+        "title": "Video",
+        "videoHeader": "Completed Video Views",
+        "costHeader": "Cost"
+      },
+      "reviews": {
+        "title": "Reviews",
+        "reviewsHeader": "Approved Reviews",
+        "costHeader": "Cost"
+      },
+      "impressions": {
+        "title": "Impressions",
+        "impressionsHeader": "Impressions",
+        "costHeader": "Cost"
+      },
+      "total": {
+        "title": "$",
+        "totalHeader": "Total Cost"
+      }
+    }
+  },
+  "roiPage": {
+    "uniqueUsers": "Unique users",
+    "impressions": "Impressions",
+    "productsHits": "Products page hits",
+    "age": "Age profile",
+    "communityGrowth": "Community Growth",
+    "competitorAdConversion": "Competitor Ad Conversion",
+    "competitorAdConversionDescription": "Clicks through to your product pages",
+    "buyingIntentConversion": "Buying Intent Conversion",
+    "buyingIntentConversionDescription": "Buy now clicks from your product pages",
+    "buyingIntentRoi": "Buying Intent ROI",
+    "buyingIntentSpend": "Spend",
+    "buyingIntentSales": "Buying Intent Potential Sales",
+    "buyingIntentPotentialRoi": "Potential ROI",
+    "reviewRatingScore": "Review Rating Score",
+    "definedPeriod": "Defined Period",
+    "reviewsByBrands": "Number of reviews by brands"
+  },
+  "overviewPage": {
+    "cityPlaceholder": "Choose city",
+    "statePlaceholder": "Choose state",
+    "postcodePlaceholder": "Choose postcode",
+    "interaction_clicks": "Interaction clicks",
+    "approved_reviews": "Approved Reviews",
+    "completed_video_views": "Completed Video Views",
+    "daily": "Daily",
+    "weekly": "Weekly",
+    "monthly": "Monthly",
+    "engagement": "Engagement",
+    "interaction": "Interaction",
+    "selectFirstDate": "Select first date",
+    "selectSecondDate": "Select second date",
+    "selectCountry": "Select a country",
+    "selectBrand": "Select brand",
+    "interactionPeriod": "Interactions over the defined period",
+    "spendPeriod": "Spend over the defined period",
+    "salesPeriod": "Sales over the defined period",
+    "salesAmount": "Sales amount",
+    "usersPeriod": "Users over the defined period",
+    "dailyUniqueUsers": "Daily Users",
+    "weeklyUniqueUsers": "Weekly Users",
+    "monthlyUniqueUsers": "Monthly Users",
+    "interactions": "Interactions",
+    "monthlySpend": "Monthly spend",
+    "weeklySpend": "Weekly spend",
+    "dailySpend": "Daily spend",
+    "monthlySales": "Monthly sales",
+    "weeklySales": "Weekly sales",
+    "dailySales": "Daily sales",
+    "dailyLast": "Last day",
+    "weeklyLast": "Last week",
+    "monthlyLast": "Last month",
+    "scans": "Scans",
+    "users": "Users",
+    "units": "Units",
+    "impressions": "Impressions",
+    "clicks": "Clicks",
+    "dailyEngagement": "Daily Engagement",
+    "weeklyEngagement": "Weekly Engagement",
+    "monthlyEngagement": "Monthly Engagement",
+    "scanTooltip": "An organic scan of your product barcode",
+    "usersTooltip": "An user that has had an \"interaction\" with your brand",
+    "pdf": {
+      "portrait": "Portrait",
+      "landscape": "Landscape",
+      "orientation": "Orientation",
+      "export": "Export to PDF"
+    },
+    "serialization": {
+      "header": "Statistic",
+      "created": "Created",
+      "into_circulation": "Into Circulation",
+      "shipped": "Shipped"
+    },
+    "interactionsTooltip": {
+      "clicks": "Clicks",
+      "scan": "Product Scans",
+      "send_review": "Reviews",
+      "submit_todo_card": "Activations (i.e. competitions, surveys etc.)",
+      "watch_video": "Completed video views"
+    },
+    "topProducts": {
+      "topProducts": "Top products",
+      "blast": "Blast",
+      "rotation": "Rotation",
+      "featured": "Featured",
+      "image": "Image",
+      "product": "Product",
+      "impressions": "Impressions",
+      "interactions": "Interactions",
+      "numberOf": " Number of",
+      "scans": "Scans",
+      "reviews": "Reviews",
+      "videoViews": "Video views",
+      "differentStores": "Different stores",
+      "sales": "Sales",
+      "widgetClicks": "Widget clicks"
+    },
+    "topUsers": {
+      "topUsers": "Top Users",
+      "name": "Name",
+      "age": "Age",
+      "level": "Level",
+      "scans": "Scans"
+    },
+    "campaigns": {
+      "campaigns": "Billable's",
+      "link_clicks": "Link clicks",
+      "social_link_clicks": "Social link clicks",
+      "cross_marketing_clicks": "Cross Market Widget",
+      "reviews": "Reviews",
+      "video_views": "Video views",
+      "activations": "Activations",
+      "interaction_clicks": "Interaction clicks",
+      "completed_video_views": "Completed Video Views",
+      "approved_reviews": "Approved Reviews",
+      "impressions": "Impressions"
+    },
+    "viewAll": "View all",
+    "hide": "Hide",
+    "sales": "Sales",
+    "months": {
+      "january": "January",
+      "february": "February",
+      "march": "March",
+      "april": "April",
+      "may": "May",
+      "june": "June",
+      "july": "July",
+      "august": "August",
+      "september": "September",
+      "october": "October",
+      "november": "November",
+      "december": "December"
+    },
+    "allBrands": "All brands",
+    "issuer": "All Customers",
+    "allGtins": "All GTIN's",
+    "anyCountry": "Any country",
+    "addWidgets": "Add widgets",
+    "lang": {
+      "today": "Today",
+      "now": "Now",
+      "backToToday": "Back to today",
+      "ok": "Ok",
+      "clear": "Clear",
+      "month": "Month",
+      "year": "Year",
+      "timeSelect": "Select time",
+      "dateSelect": "Select date",
+      "monthSelect": "Choose a month",
+      "yearSelect": "Choose a year",
+      "decadeSelect": "Choose a decade",
+      "previousMonth": "Previous month (PageUp)",
+      "nextMonth": "Next month (PageDown)",
+      "previousYear": "Previous year (Control + left)",
+      "nextYear": "Next year (Control + right)",
+      "previousDecade": "Previous decade",
+      "nextDecade": "Next decade",
+      "previousCentury": "Previous century",
+      "nextCentury": "Next century",
+      "yearFormat": "YYYY",
+      "dateFormat": "D M YYYY",
+      "dayFormat": "D",
+      "dateTimeFormat": "D M YYYY HH:mm:ss"
+    },
+    "timePickerLocale": {
+      "placeholder": "Choose time"
+    },
+    "crossMarketPerformanceGraph": {
+      "adv_clicks": "Ad Clicks",
+      "impressions": "Impressions",
+      "header": "Competitor Performance",
+      "other": "Other"
+    }
+  },
+  "spendPage": {
+    "interactions": "Interactions",
+    "videoViews": "Video views",
+    "reviews": "Reviews",
+    "impressions": "Impressions"
+  },
+  "audiencePage": {
+    "gender": "Gender",
+    "generation": "Generation",
+    "audience": "Audience",
+    "totalUsers": "Total users within the defined period",
+    "totalScans": "Total scans",
+    "retailers": "Retailers",
+    "others": "Others"
+  },
+  "geographyPage": {
+    "geography": "Geography",
+    "country": "Country",
+    "state": "State"
+  },
+  "conversionPage": {
+    "sales": {
+      "title": "Sales",
+      "image": "Image",
+      "product": "Product",
+      "sales": "Sales"
+    },
+    "clicks": "Clicks",
+    "buyingIntent": "Buying Intent - Interactions",
+    "communityGrowth": "Community Growth - Interactions",
+    "education": "Education - Interactions",
+    "reviews": "Reviews",
+    "videos": "Most Viewed Videos",
+    "impressions": {
+      "title": "Impressions",
+      "type": "Type",
+      "showCount": "Show count",
+      "fieldsNames": {
+        "cross_market_link": "Cross Marketing Impressions",
+        "product": "Product Page Impressions",
+        "timeline": "Timeline Impressions",
+        "Unknown": "Unknown"
+      }
+    },
+    "interactions": {
+      "title": "Interactions",
+      "fieldsNames": {
+        "clicks": "Clicks",
+        "scan": "Product Scans",
+        "send_review": "Reviews",
+        "submit_todo_card": "Activations",
+        "watch_video": "Video views",
+        "Unknown": "Unknown"
+      }
+    },
+    "interactions_competitors": {
+      "title": "Interactions",
+      "fieldsNames": {
+        "social_link_clicks": "Social links clicks",
+        "link_clicks": "Link clciks",
+        "clicks": "Total clicks",
+        "reviews": "Reviews",
+        "video_views": "Video views",
+        "activations": "Activations",
+        "Unknown": "Unknown"
+      }
+    }
+  },
+  "shoppingListUsagePage": {
+    "unique_users": "Unique Shopping List Users",
+    "go_clicks": "GO Shopping Clicks",
+    "opens": "Shopping List Open",
+    "finish_clicks": "Finish Shopping Clicks",
+    "avg_shopping_list_size": "Average Products per Shoping List",
+    "ocasional_buys": "Ocasional Buys products",
+    "created_lists": "New Shopping Lists",
+    "main_added_products": "Weekly List Products",
+    "custom_added_products": "Custom List Products",
+    "purchased_products": "Purchased Products",
+    "shared_accounts": "New accounts shared with other users",
+    "receipts": "Receipt Uploads",
+    "loyaltee_cards": "Loyaltee Card Used",
+    "added_products": "New products added to any lists",
+    "time_spent": "Average Time Spent",
+    "searches": "Global Searches",
+    "linear_diagrams": "Shopping List Usage",
+    "categoryTableTitle": "Categories",
+    "category": {
+      "name": "Name",
+      "showCount": "Count"
+    },
+    "attributeTableTitle": "Attributes",
+    "attribute": {
+      "name": "Name",
+      "showCount": "Count"
+    }
+  },
+  "shoppingListUsersPage": {
+    "userDetailTableTitle": "Shopping List Usage by User",
+    "attribute": {
+      "user_name": "User Name",
+      "user_age": "Age",
+      "user_gender": "Gender",
+      "level": "Level",
+      "reg_date": "Registered",
+      "added_products": "Added Products",
+      "shoppinglists_products": "Products",
+      "purchased_products": "Purchased",
+      "purchase_frequency": "Frequency",
+      "go_clicks": "GO Clicks",
+      "finish_clicks": "Finish Clicks",
+      "loyaltee_cards": "Loyaltee",
+      "scans": "Scans",
+      "receipts": "Receipt Uploads",
+      "categories": "Categories",
+      "attributes": "Attributes",
+      "stores": "Stores"
+    }
+  },
+  "widgetsNames": {
+    "StreamTable": "Summary",
+    "statistic": "Statistic",
+    "created": "Created",
+    "into_circulation": "Into Circulation",
+    "shipped": "Shipped",
+    "InteractionClicks": "Interaction clicks",
+    "ApprovedReviews": "Approved Reviews",
+    "CompletedVideoViews": "Completed Video Views",
+    "chooseWidgets": "Choose widgets",
+    "noWidgets": "No widgets",
+    "crossMarketing": "Competitors Ads",
+    "UniqueUsers": "Users",
+    "Interaction": "Interaction",
+    "crossMarketingPerformance": "Competitor Performance",
+    "Spent": "Spent",
+    "Sales": "Sales",
+    "engagement": "Engagement",
+    "topProducts": "Top products",
+    "topUsers": "Top users",
+    "campaigns": "Campaigns",
+    "spends": "Spends",
+    "brandSales": "Brand sales",
+    "gender": "Gender",
+    "generation": "Generation",
+    "audience": "Audience",
+    "totalUsers": "Total users",
+    "totalScans": "Total scans",
+    "retailers": "Retailers",
+    "geography": "Geography",
+    "country": "Country",
+    "state": "State",
+    "Clicks": "Clicks",
+    "Videos": "Videos",
+    "Reviews": "Reviews",
+    "conversionSales": "Sales",
+    "ExtendedClicks": "Clicks",
+    "Impressions": "Impressions",
+    "ProductsHits": "Products page hits",
+    "Interactions": "Interactions",
+    "CommunityGrowth": "Community Growth",
+    "ageProfile": "Age profile",
+    "buyingIntentRoi": "Buying Intent ROI",
+    "competitorAdConversion": "Competitor Ad Conversion",
+    "buyingIntentConversion": "Buying Intent Conversion",
+    "buyingIntentPotentialRoi": "Potential ROI",
+    "reviewRatingScore": "Review Rating Score",
+    "definedPeriod": "Defined Period",
+    "reviewsByBrands": "Number of reviews by brands",
+    "crossMarketPerformanceGraph": "Competitor Performance",
+    "buyingIntent": "Buying Intent - Interactions",
+    "communityGrowth": "Community Growth - Interactions",
+    "education": "Education - Interactions"
+  },
+  "serverErrors": {
+    "description-bad_ptcp_perms": "Participant do not have required permissions",
+    "description-not_owner": "Current participant must be GTIN owner",
+    "description-gtin_limit": "Error: GTIN limit exceeded.",
+    "description-dup_gtin": "Product for the GTIN already exists",
+    "identity-mail_activation_limit": "You have reached the sending limit",
+    "analytic-missing_schema": "Current participant has no index schema.",
+    "analytic-missing_schema_field": "Field is missing in participant index schema.",
+    "analytic-non_system": "Current participant must be system.",
+    "analytic-schema_load": "Couldn't load participant index schema.",
+    "authentication-ait_proxy": "AIT proxy couldn't process the request.",
+    "authentication-no_scan": "The requested scan couldn't be found.",
+    "authentication-product_mismatch": "Product doesn't match product from the scan.",
+    "authentication-user_mismatch": "Current user doesn't match user from the scan.",
+    "authentication-widget_mismatch": "Widgets do not match widgets in the scan.",
+    "buddies-already_buddy": "User is already in the buddies list.",
+    "buddies-buddy_descr": "Buddy description was not updated.",
+    "buddies-id_format": "Incorrect buddy identifier format.",
+    "buddies-invalid_action": "Invalid buddy action.",
+    "buddies-invalid_code": "Invalid buddy invitation code.",
+    "buddies-invalid_invitation": "The requested buddy invitation method is not supported.",
+    "buddies-max_buddies": "Limit on number of buddies reached.",
+    "buddies-no_buddy": "The requested user is not found in the list of buddies.",
+    "buddies-self_buddy": "User can't have himself as a buddy.",
+    "chat-no_chat_module": "Participant doesn't have chat module enabled.",
+    "common-doc_storage": "Couldn't read from the document storage.",
+    "common-expired_session": "Session is expired.",
+    "common-incorrect_credentials": "Incorrect user identifier and/or password.",
+    "common-internal": "Please check your internet connection and try again.",
+    "common-invalid_input": "Invalid value for input parameter: {param}.",
+    "common-missing_input": "Required parameter is missing.",
+    "common-missing_role": "User doesn't have a required role.",
+    "common-missing_ticket": "Authentication ticket parameter is missing.",
+    "common-no_cur_ptcp": "There is no active participant for the user.",
+    "common-no_levels": "Couldn't retrieve user levels description.",
+    "common-no_ptcp": "Participant is not found.",
+    "common-no_user": "User is not found.",
+    "common-sql_storage": "Couldn't read from the database.",
+    "contributors-bad_accuracy": "Accuracy must be greater than zero for an approved document.",
+    "contributors-bad_field": "There is no such field in the product information schema.",
+    "contributors-bad_field_type": "Field type isn't compatible with the product information schema.",
+    "contributors-bad_field_value": "Value is invalid according to the product information schema",
+    "contributors-bad_gtin_data": "Resulting GTIN has invalid data.",
+    "contributors-bad_gtin_widgets": "Resulting GTIN doesn't contain any valid widgets.",
+    "contributors-bad_moderator": "Invalid moderator information in user profile.",
+    "contributors-locked_other": "The requested document is locked by another user.",
+    "contributors-no_contributor": "Couldn't load contributor's user profile.",
+    "contributors-no_doc": "Couldn't find the requested document.",
+    "contributors-no_moderator": "Couldn't read moderator user profile.",
+    "contributors-no_product": "There is no product related to the scan.",
+    "contributors-no_product_name": "Product name is not found in the document.",
+    "contributors-no_product_schema": "Couldn't load product information schema document.",
+    "contributors-not_locked": "The requested document is not locked.",
+    "contributors-review_progress": "Review is in progress for the requested document.",
+    "contributors-reviewed_level": "The document is already reviewed at that level.",
+    "contributors-under_review": "The requested document is already under review.",
+    "identity-activ_limit": "Monthly limit on activation codes has been reached. Try again later.",
+    "identity-bad_activ_code": "You have entered the incorrect activation code. Please try again.",
+    "identity-bad_brand_owner": "New brand owner isn't Shping Marketing participant.",
+    "identity-bad_oauth_srvc": "Registration with the requested service is unavailable.",
+    "identity-bad_ptcp": "Invalid participant.",
+    "identity-brand_has_owner": "Brand already has an owner.",
+    "identity-no_activ_code": "Unknown activation code.",
+    "identity-no_restore_code": "Unknown restore code.",
+    "identity-no_signed_ptcp": "User does not have signed participant.",
+    "identity-oauth_bad_resp": "Unexpected response from the service.",
+    "identity-oauth_no_resp": "There is no response from the OAuth service.",
+    "identity-oauth_profile": "Couldn't read user profile from the service.",
+    "identity-oauth_unavail": "OAuth service is unavailable.",
+    "identity-user_exists": "The requested email is already registered.",
+    "index-bad_index": "The requested index type is not allowed.",
+    "index-bad_table": "The requested table is not in the list of allowed tables.",
+    "participant-bad_type": "Unresolved participant type.",
+    "participant-ptcp_exists": "The Participant already exists.",
+    "participant-settings_change": "You cannot change your profile settings.",
+    "payments-downgrade_plan": "You cannot downgrade the current billing plan within 12 months of purchase.",
+    "payments-rule_total_transactions_per_period": "Withdrawal Declined. Only 1 withdrawal permitted every 24 hours.",
+    "rewards-audience_mismatch": "User doesn't match reward campaign audience.",
+    "rewards-bad_child_ptcp_type": "Incorrect child participant type.",
+    "rewards-bad_company_prefix": "Participant company prefix doesn't match products prefix.",
+    "rewards-bad_points_price": "Points can not be greater than reward points price.",
+    "rewards-bad_ptcp_type": "Incorrect current participant type.",
+    "rewards-campaign_budget": "Reward campaign budget was exceeded.",
+    "rewards-campaign_dates": "Reward campaign was not started or already finished.",
+    "rewards-change_mod_not_sys": "Only system and partner participants can change modules.",
+    "rewards-charge": "Can't charge from the card.",
+    "rewards-choose_reward_type": "Reward must be either a product or a gift card.",
+    "rewards-event_condition": "Event was already rewarded in the time period.",
+    "rewards-event_location": "Event was already rewarded at this location.",
+    "rewards-inact_campaign": "Reward campaign is inactive.",
+    "rewards-no_bot": "Couldn't find the requested bot.",
+    "rewards-no_brand_email": "Unable to notify brand about the reward.",
+    "rewards-no_campaign": "Reward campaign is not found.",
+    "rewards-no_charge_card": "Please set your card to purchase this product.",
+    "rewards-no_gift_card": "Couldn't find matching gift card.",
+    "rewards-no_gift_card_reward": "Couldn't find matching gift card reward.",
+    "rewards-no_module": "Rewards module isn't active for the participant",
+    "rewards-no_product": "Couldn't find product by GTIN.",
+    "rewards-no_product_reward": "Couldn't find product reward for GTIN.",
+    "rewards-no_shoutout": "Couldn't find the shoutout campaign.",
+    "rewards-not_bot_owner": "Participant must be bot owner.",
+    "rewards-not_campaign_owner": "Participant must be campaign owner.",
+    "rewards-not_ptcp_parent": "Must be participant parent.",
+    "rewards-owner_rewards": "Product owner has rewards module.",
+    "rewards-partner_no_module": "Partner participant must have active rewards module.",
+    "rewards-ptcp_budget": "Participant reward budget exceeded.",
+    "rewards-ptcp_budget_limit": "Participant reward budget limit exceeded.",
+    "rewards-set_limits_not_system": "Only system and partner participants could set budget limits.",
+    "rewards-set_non_child_limits": "Partner can change budget limits only for child participants.",
+    "rewards-sys_budget_limit": "Budget exceeds system budget limits.",
+    "rewards-unverified_phone": "Please verify your phone number.",
+    "serialization-count_value": "Check count value.",
+    "serialization-in_progress": "Serialization is in progress.",
+    "serialization-load_file": "Couldn't load the file.",
+    "serialization-no_company_prefix": "Company prefix is not found.",
+    "serialization-no_cur_ptcp": "No current participant.",
+    "serialization-no_gtin": "Product for the GTIN is not found.",
+    "serialization-no_tasks": "Tasks document is not found.",
+    "serialization-not_started": "Serialization process hasn't been started.",
+    "serialization-parse_gtin": "Can't pass company prefix with requested GTIN.",
+    "serialization-read_file": "Couldn't read the file.",
+    "supplychain-bad_ptcp_type": "Participant must have specific type.",
+    "supplychain-brand_exists": "Brand with this name already exists.",
+    "supplychain-distributor_exists": "The Distributor already exists.",
+    "supplychain-no_brand": "The requested brand is not found.",
+    "supplychain-no_gtin": "The requested trade item is not found.",
+    "supplychain-no_profile": "The requested marketing profile is not found.",
+    "supplychain-not_brand_owner": "Participant must be brand owner to update the brand.",
+    "supplychain-not_gtin_owner": "Participant must be product owner to attach marketing profile.",
+    "supplychain-not_owner_parent": "Participant must be parent of the brand owner.",
+    "supplychain-not_profile_owner": "Participant must be marketing profile owner.",
+    "supplychain-retailer_exists": "The Retailer already exists.",
+    "supplychain-supplier_exists": "The Supplier already exists.",
+    "supplychain-owner_exists": "The Owner already exists.",
+    "timeline-news_by_id": "Can't read news by id in chunk.",
+    "timeline-news_published": "News is already published.",
+    "timeline-no_news_chunk": "Couldn't read the newsline chunk.",
+    "timeline-no_news_head": "Can't read newsline head document.",
+    "timeline-no_time_chunk": "Couldn't read the timeline chunk.",
+    "todo_cards-active_delivery": "Users have not yet completed ToDo cards attached to this Delivery.",
+    "track_trace-no_biz_location": "Business location is not found.",
+    "track_trace-not_owner": "Participant must be business location owner."
+  },
+  "validation": {
+    "required": "Required",
+    "default": "Something went wrong. {error}",
+    "submitError": "Invalid value entered on the form. Please correct these values and try again.",
+    "requiredField": "The field is required*",
+    "requiredFieldWithName": "{name} is required*",
+    "tooShortValue": "The number is too short. The length should be {number} characters",
+    "tooLongValue": "The number you entered is too long. The length should be {number} characters",
+    "wrongCheckGtin": "The last character is incorrect",
+    "wrongProdCode": "The code field should contain {prodCodeLength} characters",
+    "wrongFlag": "The flag field should contain {flagCodeLength} characters",
+    "wrongComPrefix": "The barcode should contain one of the company prefixes after 0",
+    "wrongFirstCharacter": "The barcode should start with 0",
+    "identicalSource": "Identical sources are presented",
+    "maxLength": "The value is too long",
+    "remaining": "Remaining",
+    "email": "Invalid email address",
+    "shouldStartWith": "The link should start with {text}",
+    "invalidUrl": "The entered web address is invalid",
+    "invalidSubItem": "SubItem total value cannot be more than item {item} total value",
+    "bigDateRange": "The date range can't be more than three years. The data is selected from {firstDate} to {secondDate}",
+    "wrongHourValue": "Hour should not less than 0 and greater than 12",
+    "wrongMinuteValue": "Minute should not less than 0 and greater than 59",
+    "wrongDateValue": "Date is required",
+    "wrongMedianValue": "Median is required",
+    "supplyChain": {
+      "severalPrefixesShortDesc": "First {length} digits should match one of your Company Prefix",
+      "onePrefixShortDesc": "First {length} digits should match your Company Prefix {firstPrefix}",
+      "glnIsShort": "GLN is too short",
+      "glnIsIncorrect": "GLN is incorrect",
+      "glnIsLong": "GLN is too long",
+      "glnIsInvalid": "GLN is not valid",
+      "emailIsNotValid": "Email is not valid",
+      "phoneIsNotValid": "Phone is not valid",
+      "addressIsReq": "Address is required*",
+      "cityIsReq": "City, is required*",
+      "nameIsReq": "Name, is required*"
+    }
+  },
+  "addProduct": {
+    "leaveMessage": "Are you sure you want to exit Product editor? If yes the entered data won't be saved."
+  },
+  "mobilePreview": {
+    "links": "Links",
+    "contacts": "Contacts"
+  },
+  "mobilePreviewNutritionInfo": {
+    "title": "Nutrition facts",
+    "kcal": "kcal",
+    "calories": "calories",
+    "dailyValue": "daily value",
+    "amountsPerSaving": "amounts per saving",
+    "nanoLabel": "nano"
+  },
+  "mobilePreviewBarcode": {
+    "title": "Barcode number"
+  },
+  "mobilePreviewLinks": {
+    "title": "Links"
+  },
+  "widgets": {
+    "noRewards": "No rewards",
+    "mainInfo": {
+      "product": "Product",
+      "barcodeNumber": "Barcode number",
+      "productName": "Product name",
+      "brandName": "Brand name"
+    },
+    "tradeItem": {
+      "tradeItem": "Trade Item",
+      "segment": "Segment",
+      "family": "Family",
+      "class": "Class",
+      "brick": "Brick",
+      "attributes": "Attributes",
+      "selectSegment": "Please select a segment",
+      "selectFamily": "Please select a family",
+      "selectClass": "Please select a class",
+      "selectBrick": "Please select a brick",
+      "selectKey": "Please select an attribute key",
+      "selectValue": "Please select an attribute value",
+      "addMore": "Add more"
+    },
+    "images": {
+      "title": "Images",
+      "content": "Content",
+      "imagePlaceholder": "Drop files to upload",
+      "buttonText": "Add image",
+      "delete": "Delete image",
+      "rotate": "Rotate image",
+      "zoom": "Zoom image",
+      "addLabel": "Image label has been updated",
+      "defaultSelectLabel": "Select a label"
+    },
+    "video": {
+      "title": "Video",
+      "inputField": "Title",
+      "content": "Content",
+      "downloadPopup": "Replace file",
+      "imagePlaceholder": "Drop files to upload",
+      "buttonText": "Set preview",
+      "preview": "Preview"
+    },
+    "gdti": {
+      "title": "GDTI",
+      "placeholder": "Please select a document",
+      "inline": "Inline",
+      "label": "GDTI Document"
+    },
+    "link": {
+      "title": "Link",
+      "displayText": "Display text",
+      "textPlaceholder": "Please select a document",
+      "url": "Url",
+      "content": "Content"
+    },
+    "popup": {
+      "title": "Popup",
+      "placeholder": "Select an icon or upload an image",
+      "displayTitle": "Title",
+      "text": "Text in a rich format ",
+      "icon": "Icon",
+      "ok": "Text of the OK button",
+      "cancel": "Text of the cancel button",
+      "options": {
+        "action": "Action",
+        "brand": "Brand",
+        "contact": "Contact",
+        "fb": "Facebook",
+        "support": "Support",
+        "verify": "Verify",
+        "warning": "Warning",
+        "custom": "Upload an image"
+      }
+    },
+    "certificates": {
+      "title": "Certificates",
+      "displayText": "Title",
+      "delete": "Delete certificate",
+      "textPlaceholder": "Select ...",
+      "selectTitle": "GDTI Certificate",
+      "content": "Content",
+      "expired": "Expired",
+      "buttonText": "Add certificate"
+    },
+    "health_star": {
+      "title": "Health star rating",
+      "rating": "Rating",
+      "per": "Per",
+      "quantityUnit": "Quantity Unit",
+      "quantitySize": "Quantity Size",
+      "numberOfFields": "Number of fields",
+      "name": "Name",
+      "value": "Value",
+      "unit": "Unit",
+      "level": "Level"
+    },
+    "nutrition_info": {
+      "title": "Nutrition Info",
+      "displayTitle": "Nutrition Title",
+      "packUnit": "Package Unit",
+      "packSize": "Package Size",
+      "serSize": "Serving Size",
+      "calories": "Calories",
+      "name": "Name",
+      "value": "Value",
+      "unit": "Unit",
+      "gdti": "Gdti",
+      "rdi": "RDI",
+      "less": "Less than",
+      "addNutrition": "Add nutrition item #{number}",
+      "addIngredient": "Add ingredient",
+      "advanced": "Advanced",
+      "default": "Default",
+      "allergen": "Allergen",
+      "nano": "Nano",
+      "add": "Add nutrition subitem",
+      "addItem": "Add ingredient item",
+      "deleteItem": "Delete ingredient item",
+      "deleteGroup": "Delete ingredient group",
+      "delete": "Delete nutrition",
+      "group": "Group",
+      "description": "Description",
+      "advancedItemTitle": "Nutrition Item #{number}",
+      "advancedSubItemTitle": "Nutrition Subitem #{number}"
+    },
+    "socialNetworks": {
+      "title": "Social Networks",
+      "icon": "Icon",
+      "url": "Url",
+      "content": "Content",
+      "addMore": "Add more",
+      "delete": "Delete Social network"
+    },
+    "components": {
+      "displayTitle": "Title",
+      "title": "Components",
+      "group": "Group",
+      "name": "Name",
+      "addItem": "Add component item",
+      "deleteItem": "Delete component item",
+      "add": "Add component",
+      "delete": "Delete component group"
+    },
+    "expired": {
+      "addMessage": "New record has been added.",
+      "copyMessage": "{str} has been copied to clipboard"
+    },
+    "madeIn": {
+      "title": "Made In",
+      "placeholder": "Select country",
+      "selectTitle": "Country"
+    },
+    "text": {
+      "title": "Title",
+      "titleField": "Text",
+      "subtype": "Subtype",
+      "subtypePlaceholder": "Choose a subtype"
+    }
+  },
+  "myTeamPage": {
+    "noname": "No name",
+    "deletePop": "Delete teammate",
+    "deleteModalMessage": "Are you sure you want to delete this teammate - {name}",
+    "name": "Name",
+    "operationActivities": "Operation Activities",
+    "trustedLevel": "Trusted Level",
+    "accessType": "Access Type",
+    "lastAccess": "Last Access",
+    "deleteSuccess": "Teammate was successfully deleted",
+    "invite": {
+      "inviteBtn": "Invite",
+      "plhId": "example@email.com or 444444444",
+      "reviews": "Reviews",
+      "managePayments": "Manage Payments",
+      "addEditProducts": "Add/Edit Products",
+      "deleteProducts": "Delete Products",
+      "setUpCampaigns": "Set Up Campaigns",
+      "productRole": "Product Role"
+    },
+    "create": {
+      "createBtn": "Create",
+      "productRole": "Product Role",
+      "reviews": "Reviews",
+      "managePayments": "Manage Payments",
+      "addEditProducts": "Add/Edit Products",
+      "deleteProducts": "Delete Products",
+      "setUpCampaigns": "Set Up Campaigns",
+      "tTOperator": "T&T Operator",
+      "userName": "User name",
+      "firstName": "First name",
+      "lastName": "Last name",
+      "password": "Password"
+    },
+    "backToMyTeam": "Back to my team"
+  },
+  "tableSettings": {
+    "sortBy": "Sort by",
+    "dontSort": "Do not sort",
+    "name": "Name",
+    "gtin": "GTIN"
+  },
+  "teamsTableSettings": {
+    "sortBy": "Sort by",
+    "dontSort": "Do not sort",
+    "name": "Name",
+    "context": "Context"
+  },
+  "save": "Save",
+  "yes": "Yes",
+  "yo": "y.o.",
+  "no": "No",
+  "cancel": "Cancel",
+  "apply": "Apply",
+  "start": "Start",
+  "reset": "Reset",
+  "serializedProductsPage": {
+    "placeholders": {
+      "declarationDate": "Declaration Date",
+      "invoiceDate": "Invoice Date",
+      "dateCreated": "Created Date"
+    },
+    "configure": "Configure fields",
+    "configureAdvancedFields": "Configure advanced options",
+    "foundProducts": "products",
+    "owner": "Storage",
+    "all": "All",
+    "me": "Me",
+    "exceptMe": "All except Me",
+    "companyPrefix": "Company Prefix",
+    "numBrandSources": "Brand Sources",
+    "serialNumber": "Serial Number",
+    "dateCreated": "Date Created",
+    "ownerSelect": "Owner",
+    "issuer": "Manufacturer",
+    "task": "Serialization Task",
+    "aggregationTask": "Aggregation Task",
+    "brand": "Brand",
+    "status": "Status",
+    "code": "GS1 Databar",
+    "custody": "Custody",
+    "datamatrixCode": "DataMatrix Code",
+    "gpcBrick": "GPC Brick",
+    "gpcClass": "GPC Class",
+    "gpcFamily": "GPC Family",
+    "gpcSegment": "GPC Segment",
+    "numContributorSources": "Contributor Sources",
+    "numExpertSources": "Expert Sources",
+    "numGs1Sources": "GS1 Sources",
+    "numRetailerSources": "Retailer Sources",
+    "userReviews": "Reviews",
+    "userReviewsRate": "Reviews Rate",
+    "userScans": "Scans",
+    "import": "Import"
+  },
+  "trackAndTrace": {
+    "advancedOpt": "Advanced options",
+    "inventory": {
+      "inventoryReportsLabel": "Inventory Reports",
+      "tableHeader": "{totalItems} Total",
+      "dateTime": "Date + Time",
+      "operator": "Operator",
+      "pallet": "Pallet",
+      "carton": "Carton",
+      "vendorCode": "Vendor code",
+      "presented": "Presented",
+      "scanned": "Scanned",
+      "valid": "Valid",
+      "difference": "Diff",
+      "foundReports": "reports",
+      "startDate": "Start Date",
+      "endDate": "End Date"
+    },
+    "ttOperations": {
+      "operation": "Operation",
+      "date": "Date",
+      "time": "Time",
+      "invoice": "Invoice",
+      "vendorCode": "Vendor code",
+      "carton": "Carton",
+      "serialNumber": "Serial Number",
+      "login": "Login",
+      "loadMore": "Load More",
+      "packProducts": "Pack products",
+      "packContainers": "Pack containers",
+      "reassignment": "Reassignment",
+      "unpack": "Unpack"
+    }
+  },
+  "supplyChain": {
+    "supplyChainLabel": "Inventory Reports",
+    "externalId": "External id",
+    "gln": "GLN",
+    "name": "Name",
+    "type": "Type",
+    "country": "Country",
+    "city": "City",
+    "state": "State",
+    "contact": "Contact",
+    "postCode": "Post Code",
+    "phone": "Phone",
+    "address": "Address",
+    "email": "Email",
+    "facebook": "Facebook URL",
+    "actions": "Actions",
+    "delete": "Are you sure you want to delete this participant - {name}",
+    "edit": "Edit Participant",
+    "create": "Create Participant",
+    "selectType": "Select Type",
+    "selectCountry": "Select Country",
+    "selectOperation": "Select an operation",
+    "createParticipant": "Create Participant"
+  },
+  "serializationTasks": {
+    "action": "Actions",
+    "status": "Status",
+    "dateCreated": "Date Created",
+    "gtins": "GTINs",
+    "name": "Name",
+    "sequence": "Sequence",
+    "ssccCreated": "SSCC Created",
+    "startTime": "Start Time",
+    "endTime": "End Time",
+    "foundItems": "tasks",
+    "createTask": "Create Task",
+    "fileDl": "Export failed, try again.",
+    "exportUnavailable": "Export unavailable for this product, try refreshing",
+    "codeGenerationSection": "Code generation",
+    "modal": {
+      "title": "Select type of task to create",
+      "slgtin": "SGTIN/LGTIN Tasks",
+      "sscc": "SSCC Tasks"
+    },
+    "serializationSSCCOptions": {
+      "countError": "SSCC is required*",
+      "firstStep": {
+        "label": "Options",
+        "header": "Step 1 - Options",
+        "order": "Order",
+        "serialNumber": "Serial Number",
+        "random": "Random",
+        "ordered": "Ordered",
+        "numeric": "Numeric",
+        "alphanumeric": "Alphanumeric",
+        "GS1key": "GS1 key"
+      },
+      "lastStep": {
+        "label": "Review & Confirm",
+        "sscc": "SSCCs to be created",
+        "compPrefix": "Company prefix",
+        "sequence": "Sequence",
+        "serialNumber": "Serial Number"
+      }
+    },
+    "serializationStep": {
+      "prevStep": "Previous",
+      "nextStep": "Next",
+      "finish": "Finish",
+      "firstStep": {
+        "label": "Select",
+        "header": "Step 1 - Select a GTIN",
+        "subHeader": "GTINs"
+      },
+      "secondStep": {
+        "label": "Serialization",
+        "header": "Step 2 - Serialization",
+        "formatPlaceholder": "Select Code Format",
+        "countPlaceholder": "Count",
+        "contentSection": "Code Presentation",
+        "dataTypePlaceholder": "Select Data Type",
+        "lengthPlaceholder": "Numbers from 1 to 20",
+        "additionalSection": "Additional Attributes",
+        "datePlaceholder": "Date",
+        "addMore": "Add More",
+        "sequencePlaceholder": "Select Order",
+        "assignCheckboxText": "Are you going to assign created SGTINs to a participant of your supply chain?",
+        "updateCheckboxText": "Are you going to update products related information (a branch, a best before date, etc.)?"
+      },
+      "thirdStep": {
+        "label": "Assign",
+        "header": "Step 3 - Participant's delivery location",
+        "subHeader": "Locations"
+      },
+      "fourthStep": {
+        "label": "Update",
+        "header": "Step 4 - Update product sources",
+        "gtin": "GTIN:",
+        "name": "Name:",
+        "alertText": "At least one widget should be added",
+        "addImage": "Add image",
+        "addText": "Add text",
+        "restrictionCountry": "Select restriction by country",
+        "restrictionLanguage": "Select restriction by language",
+        "source": "Source"
+      },
+      "fifthStep": {
+        "label": "Export Settings",
+        "header": "Step 5 - Update export settings",
+        "textProdSelected": "Product Selected:",
+        "textToBeCreated": "SGTINs to be created:",
+        "textDeliveryLocation": "Delivery Location:",
+        "textSubInfo": "* Selected product will be updated with new information"
+      },
+      "finalStep": {
+        "header": "Final Step - Review & Confirm",
+        "name": "Name",
+        "owner": "Owner",
+        "GS1inCsv": "GS1 code in csv",
+        "labelsAsTitles": "Labels as titles in csv header",
+        "delimiter": "Delimiter"
+      },
+      "attributeType": {
+        "label": "Type",
+        "placeholder": "Select Type",
+        "prodDate": "PROD DATE",
+        "dueDate": "DUE DATE",
+        "packDate": "PACK DATE",
+        "bestBeforeOrBestBy": "BEST BEFORE or BEST BY",
+        "sellBy": "SELL BY",
+        "useByOrExpiry": "USE BY OR EXPIRY",
+        "netWeightKg": "NET WEIGHT (kg)",
+        "lengthM": "LENGTH (m)",
+        "widthM": "WIDTH (m)",
+        "heightM": "HEIGHT (m)",
+        "areaM2": "AREA (m2)",
+        "netVolumeI": "NET VOLUME (l)",
+        "netVolumeM3": "NET VOLUME (m3)",
+        "netWeightB": "NET WEIGHT (lb)",
+        "lengthI": "LENGTH (i)",
+        "lengthF": "LENGTH (f)",
+        "lengthY": "LENGTH (y)",
+        "widthI": "WIDTH (i)",
+        "widthF": "WIDTH (f)",
+        "widthY": "WIDTH (y)",
+        "heightI": "HEIGHT (i)",
+        "heightF": "HEIGHT (f)",
+        "heightY": "HEIGHT (y)",
+        "grossWeightKg": "GROSS WEIGHT (kg)",
+        "lengthMLog": "LENGTH (m), log",
+        "widthMLog": "WIDTH (m), log",
+        "heightMLog": "HEIGHT (m), log",
+        "areaM2Log": "AREA (m2), log",
+        "volumneILog": "VOLUME (l), log",
+        "volumeM3Log": "VOLUME (m3), log",
+        "kgPerM2": "KG PER m²",
+        "grossWeightLb": "GROSS WEIGHT (lb)",
+        "lengthILog": "LENGTH (i), log",
+        "lengthFLog": "LENGTH (f), log",
+        "lengthYLog": "LENGTH (y), log",
+        "widthILog": "WIDTH (i), log",
+        "widthFLog": "WIDTH (f), log",
+        "widthYLog": "WIDTH (y), log",
+        "heightILog": "HEIGHT (i), log",
+        "heightFLog": "HEIGHT (f), log",
+        "heightYLog": "HEIGHT (y), log",
+        "areaI2": "AREA (i2)",
+        "areaF2": "AREA (f2)",
+        "areaY2": "AREA (y2)",
+        "areaI2Log": "AREA (i2), log",
+        "areaF2Log": "AREA (f2), log",
+        "areaY2Log": "AREA (y2), log",
+        "netWeightT": "NET WEIGHT (t)",
+        "netVolumeOz": "NET VOLUME(oz)",
+        "netVolumeQ": "NET VOLUME (q)",
+        "netVolumeG": "NET VOLUME (g)",
+        "volumeQLog": "VOLUME (q), log",
+        "volumeGLog": "VOLUME (g), log",
+        "volumeI3": "VOLUME (i3)",
+        "volumeF3": "VOLUME (f3)",
+        "volumeY3": "VOLUME (y3)",
+        "volumeI3Log": "VOLUME (i3), log",
+        "volumeF3Log": "VOLUME (f3), log",
+        "volumeY3Log": "VOLUME (y3), log",
+        "additionalId": "ADDITIONAL ID",
+        "internal": "INTERNAL ({value})"
+      }
+    }
+  },
+  "supplyChainLocations": {
+    "title": "Locations",
+    "name": "Name",
+    "address": "Address",
+    "type": "Type",
+    "delete": "Are you sure you want to delete this location - {name}",
+    "noLocations": "No participant location found",
+    "onDeleteLocationSuccess": "The {name} location was successfully deleted",
+    "onUpdateLocationSuccess": "The {name} location was successfully updated",
+    "onCreateLocationSuccess": "The {name} location was successfully created",
+    "createLocationTitle": "Create location",
+    "selectType": "Select Type",
+    "selectCountry": "Select Country",
+    "gpsCoordinates": "GPS coordinates",
+    "updateMap": "Update map",
+    "sub_site_type": "Type",
+    "city": "City",
+    "country": "Country",
+    "foundLocations": "locations",
+    "subSiteType": {
+      "backRoom": "Backroom",
+      "storageArea": "Storage Area",
+      "salesFloor": "Sales Floor",
+      "returnArea": "Returns Area",
+      "productionArea": "Production Area",
+      "receivingArea": "Receiving Area",
+      "shippingArea": "Shipping Area",
+      "salesFloorTransitionArea": "Sales Floor Transition Area",
+      "customerPickupArea": "Customer Pick-Up Area",
+      "yard": "Yard",
+      "containerDeck": "Container Deck",
+      "cargoTerminal": "Cargo Terminal",
+      "packagingArea": "Packaging Area",
+      "pickingArea": "Picking Area",
+      "pharmacyArea": "Pharmacy Area",
+      "undefined": "Undefined"
+    }
+  },
+  "found": "{count} {text} are found",
+  "export": "Export",
+  "selectDate": "Select date",
+  "todo": {
+    "builder": {
+      "add": "Add card",
+      "found": "cards",
+      "delete": "Delete todo"
+    },
+    "delivery": {
+      "add": "Add delivery",
+      "delete": "Delete delivery",
+      "found": "deliveries",
+      "active": "Active",
+      "inactive": "Inactive",
+      "activating": "Activating todo delivery, this might take a few minutes.",
+      "deactivating": "Deactivating todo delivery, this might take a few minutes.",
+      "pendingActivation": "Pending activation",
+      "pendingDeactivation": "Pending deactivation",
+      "notEnoughCoins": "Not enough coins on your deposit address",
+      "incorrectCoins": "Incorrect delivery budget"
+    },
+    "cards": {
+      "steps": {
+        "firstStep": {
+          "label": "Settings"
+        },
+        "lastStep": {
+          "label": "Steps"
+        }
+      },
+      "form": {
+        "required": "Required",
+        "nameField": {
+          "name": "Name",
+          "placeholder": "Name",
+          "minLengthErrorMessage": "Name is too short.",
+          "maxLengthErrorMessage": "Name is too long."
+        },
+        "iconField": {
+          "name": "Icon",
+          "title": "Upload new image"
+        },
+        "promoImageField": {
+          "name": "Promo Image",
+          "description": "Upload promo",
+          "title": "Upload new promo"
+        },
+        "descriptionField": {
+          "name": "Description",
+          "placeholder": "Description",
+          "minLengthErrorMessage": "Description is too short.",
+          "maxLengthErrorMessage": "Description is too long."
+        },
+        "coinsField": {
+          "name": "Shping coins",
+          "placeholder": "Coins",
+          "minValueErrorMessage": "Invalid value.",
+          "autoApprove": {
+            "name": "Automatic approved"
+          }
+        },
+        "competition": {
+          "toggleField": {
+            "name": "Competition"
+          },
+          "prize": {
+            "placeholder": "Description of the competition prize",
+            "maxLengthErrorMessage": "Description too long."
+          },
+          "terms_conds": {
+            "placeholder": "Text or URL of Terms and Conditions",
+            "maxLengthErrorMessage": "Text too long."
+          },
+          "eligibility": {
+            "placeholder": "Eligibility criteria for the competition",
+            "maxLengthErrorMessage": "Eligibility too long."
+          }
+        }
+      },
+      "summary": {
+        "header": "ToDo {type}",
+        "name": "Name",
+        "description": "Description",
+        "coins": "Coins",
+        "label": "Status",
+        "autoApproved": "Automatic approved",
+        "needsApprove": "Needs approve",
+        "none": "None"
+      },
+      "stepsSettings": {
+        "addStep": "Add step",
+        "updateStep": "Update step",
+        "title": "Title",
+        "text": "Text",
+        "question": "Question",
+        "answer": "Answer ",
+        "correct": "Correct",
+        "addAnswer": "Add answer",
+        "types": {
+          "text": "Text",
+          "textbox": "Textbox",
+          "rating": "Rating",
+          "question": "Question",
+          "image": "Image",
+          "contact": "Contact",
+          "receipt": "Receipt"
+        },
+        "maxLengthErrorMessage": "{type} too long.",
+        "minLengthErrorMessage": "{type} is too short."
+      }
+    },
+    "deliveries": {
+      "form": {
+        "header": "ToDo Cards Delivery",
+        "subHeader": "Specify your targetted users to send your ToDo card",
+        "nameTitle": "Name",
+        "namePlaceholder": "Delivery name",
+        "todoCardTitle": "Select a ToDo card",
+        "todoCardHeader1": "Name",
+        "todoCardHeader2": "Coins",
+        "todoCardHeader3": "Type",
+        "productsHeader": "Select products",
+        "productsOption1": "All products",
+        "productsOption2": "Choose products",
+        "productsHeader1": "Barcode",
+        "productsHeader2": "Name",
+        "summaryDeliveryLabel": "Delivery mode",
+        "dateTitle": "When do you want to deliver this todo card?",
+        "dateDeliveryHeader1": "Start immediately, run continuously",
+        "dateDeliveryHeader2": "Set start and end dates",
+        "audienceTitle": "Select your audience",
+        "selectCountries": "Select countries",
+        "selectLanguages": "Select languages",
+        "genderOptionAny": "All",
+        "genderOptionOther": "Other",
+        "genderOptionMale": "Male",
+        "genderOptionFemale": "Female",
+        "filters": {
+          "ageRange": {
+            "main": "{age} y.o.",
+            "ageOption1": "-",
+            "ageOption2": "13 y.o",
+            "ageOption3": "18 y.o",
+            "ageOption4": "25 y.o",
+            "ageOption5": "35 y.o",
+            "ageOption6": "45 y.o",
+            "ageOption7": "55 y.o",
+            "ageOption8": "65 y.o",
+            "ageOption9": "∞"
+          }
+        },
+        "budgetTitle": "Specify your budget to set your limit",
+        "rewardsAdjustmentTitle": "Rewards Adjustment",
+        "rewardsAdjustmentInactive": "Inactive",
+        "rewardsAdjustmentActive": "Active",
+        "rewardsAdjustmentAmountTitle": "Amount per action in {currency}",
+        "rewardsAdjustmentStepTitle": "Adjustment step",
+        "rewardsSubtitle": "Shping exchange rate will update every hour after this delivery starts.",
+        "coinsPerDeliveryTitle": "Coins per delivery",
+        "coinsPerDeliveryPlaceholder": "Coins per delivery",
+        "rewardsDailyMaximum": "The converted amount is approximate. It can fluctuate to the Shping's value and the actual converted amount can be different.",
+        "rewardsAdjustmentStepError": "Adjustment step must be equal or less than Amount per action",
+        "budgetPlaceholder": "SHPING Coins",
+        "delayPlaceholder": "Delay in minutes when ToDo card will be sent",
+        "matchingScansCountPlaceholder": "Count of the matching scans when card will be send",
+        "numberOfMonths": "Number of months in the past",
+        "registrationTitle": "Type of registration",
+        "registrationOption1": "Registered via Facebook",
+        "registrationOption2": "Registered via Email",
+        "registrationSummary1": "Facebook",
+        "registrationSummary2": "Email",
+        "weeklyScansTitle": "Number of weekly scans",
+        "weeklyScansFromPlaceholder": "From",
+        "weeklyScansToPlaceholder": "To",
+        "scannedCountriesTitle": "Countries where user scanned a product",
+        "summaryTitle": "Your delivery details",
+        "summaryNameLabel": "Name",
+        "summaryStatusLabel": "Status",
+        "summaryCardLabel": "Todo card",
+        "summaryProductLabel": "Products",
+        "summaryBudgetLabel": "Total budget",
+        "summaryDatesLabel": "Dates",
+        "summaryCountriesLabel": "Countries",
+        "summaryGenderLabel": "Gender",
+        "summaryLanguagesLabel": "Languages",
+        "summaryAgeLabel": "Age",
+        "summaryWeeklyScansLabel": "Weekly scans",
+        "summaryScannedCountriesLabel": "Scanned countries",
+        "summaryRegistrationLabel": "Registration types",
+        "totalSubmissions": "Total submissions",
+        "deliveryMode": {
+          "inFuture": "Delivery to users who will scan products",
+          "immediate": "Immediate delivery",
+          "inPast": "Delivery to users who scanned products in the past"
+        }
+      }
+    },
+    "export": {
+      "tableTitle": "Tasks for export",
+      "tablePlaceholder": "No delivery tasks for export found.",
+      "refreshBtn": "Refresh all",
+      "tasksCount": "{totalItems} tasks found",
+      "startExportBtn": "Start",
+      "delivery": "Delivery",
+      "selectDelivery": "Select delivery",
+      "date": "Date",
+      "created": "Created",
+      "owner": "Owner",
+      "startTime": "Start time",
+      "endTime": "End time",
+      "noRequestData": "No tasks found for your request"
+    }
+  },
+  "alerts": {
+    "putAccountSuccess": "The information about user was successfully updated.",
+    "putRestoreAccountSuccess": "Email has been sent.",
+    "putRestorePasswordSuccess": "Password has been successfully changed",
+    "addReviewTemplateSuccess": "Review Template {name} added successfully",
+    "addReviewTemplateFail": "Failed to add Review Template",
+    "updateReviewTemplateSuccess": "ReviewTemplate {name} updated successfully",
+    "updateReviewTemplateFail": "Failed to update Review Template",
+    "deleteReviewTemplateSuccess": "{name} ReviewTemplate deleted successfully",
+    "deleteReviewTemplateFail": "Failed to delete Review Template",
+    "addShoppingListAdSuccess": "Shopping List Ad {name} added successfully",
+    "addShoppingListAdFail": "Failed to add Shopping List Ad",
+    "updateShoppingListAdSuccess": "Shopping List Ad {name} updated successfully",
+    "updateShoppingListAdFail": "Failed to update Shopping List Ad",
+    "deleteShoppingListAdSuccess": "{name} Shopping List Ad deleted successfully",
+    "deleteShoppingListAdFail": "Failed to delete Shopping List Ad",
+    "addCampaignCashbackSuccess": "Cashback Campaign {name} added successfully",
+    "addCampaignCashbackFail": "Failed to add Cashback Campaign",
+    "addCampaignCashoutSuccess": "Cashout Booster Campaign {name} added successfully",
+    "addCampaignCashoutFail": "Failed to add Cashout Booster Campaign",
+    "updateCampaignCashbackSuccess": "Cashback Campaign {name} updated successfully",
+    "updateCampaignCashbackFail": "Failed to update Cashback Campaign",
+    "updateCampaignCashoutSuccess": "Cashout Booster {name} updated successfully",
+    "updateCampaignCashoutFail": "Failed to update Cashout Booster Campaign",
+    "publishedCampaignCashbackSuccess": "Cashback Campaign {name} published successfully",
+    "publishedCampaignCashbackFail": "Failed to publish Cashback Campaign",
+    "publishedCampaignCashoutSuccess": "Cashout Booster Campaign {name} published successfully",
+    "publishedCampaignCashoutFail": "Failed to publish Cashout Booster Campaign",
+    "deleteCampaignCashbackSuccess": "{name} Cashback Campaign deleted successfully",
+    "deleteCampaignCashoutSuccess": "{name} Cashback Booster deleted successfully",
+    "deleteCampaignCashbackFail": "Failed to delete Cashback Campaign",
+    "deleteCampaignCashoutFail": "Failed to delete Cashout Booster",
+    "acceptCashbackSubmissionAcceptSuccess": "The Cashback Submission accepted successfully",
+    "acceptCashbackSubmissionAcceptFail": "Failed to accept Cashback Campaign Submission",
+    "rejectCashbackSubmissionAcceptSuccess": "The Cashback Campaign rejected successfully",
+    "rejectCashbackSubmissionAcceptFail": "Failed to reject Cashback Campaign Submission"
+  },
+  "profilePassword": {
+    "validation": {
+      "samePassword": "Must not be the same as current password.",
+      "differentConfirmPassword": "Did not match with the new password."
+    },
+    "fields": {
+      "currentPassword": {
+        "placeholder": "Enter current password",
+        "label": "Current password"
+      },
+      "newPassword": {
+        "placeholder": "Enter new password",
+        "label": "New password"
+      },
+      "confirmPassword": {
+        "placeholder": "Confirm new password",
+        "label": "Confirm password"
+      }
+    },
+    "submitButton": "Update password"
+  },
+  "profileUser": {
+    "fields": {
+      "firstName": {
+        "placeholder": "Enter first name",
+        "label": "First name"
+      },
+      "lastName": {
+        "placeholder": "Enter last name",
+        "label": "Last name"
+      },
+      "jobTitle": {
+        "placeholder": "Enter job title",
+        "label": "Job title"
+      },
+      "phone": {
+        "placeholder": "+61444333223",
+        "label": "Phone number",
+        "tip": "Include your area code, such as +61444333222"
+      },
+      "language": {
+        "placeholder": "Select language",
+        "label": "Preferred language"
+      },
+      "address1": {
+        "placeholder": "Enter address line 1",
+        "label": "Address line 1"
+      },
+      "address2": {
+        "placeholder": "Enter address line 2",
+        "label": "Address line 2"
+      },
+      "city": {
+        "placeholder": "Enter city",
+        "label": "City"
+      },
+      "postCode": {
+        "placeholder": "Enter post code",
+        "label": "Post/zip code"
+      }
+    },
+    "submitButton": "Update profile",
+    "summaryHeading": "User profile",
+    "notProvided": "Not provided"
+  },
+  "profileParticipant": {
+    "fields": {
+      "allowedWebsites": "Allowed websites",
+      "publicApiKey": "Public API Key",
+      "name": {
+        "placeholder": "Enter name",
+        "label": "Name"
+      },
+      "contact": {
+        "placeholder": "Enter contact name",
+        "label": "Contact name"
+      },
+      "phone": {
+        "placeholder": "+61444333222",
+        "label": "Phone number"
+      },
+      "logo": {
+        "label": "Logo"
+      },
+      "address": {
+        "placeholder": "Enter address",
+        "label": "Address"
+      },
+      "city": {
+        "placeholder": "Enter city",
+        "label": "City"
+      },
+      "country": {
+        "placeholder": "Select country",
+        "label": "Country"
+      },
+      "postCode": {
+        "placeholder": "Enter post code",
+        "label": "Post code"
+      },
+      "email": {
+        "placeholder": "Enter email address",
+        "label": "Email address"
+      },
+      "facebookUrl": {
+        "placeholder": "Enter facebook link",
+        "label": "Facebook link"
+      },
+      "authenticBarcodes": {
+        "label": "Ignore a product location"
+      },
+      "ethAddress": {
+        "placeholder": "0x686c626E48bfC5DC98a30a9992897766fed4Abd3",
+        "label": "Ethereum address"
+      },
+      "exclusiveInfo": {
+        "label": "Exclusive product information"
+      },
+      "apiKey": {
+        "label": "API Key"
+      },
+      "apiDomains": {
+        "placeholder": "Add your domain here",
+        "label": "Web sites"
+      },
+      "timezoneCode": {
+        "placeholder": "Add your timezone here",
+        "label": "Timezone settings"
+      }
+    },
+    "submitButton": "Update profile",
+    "summaryHeading": "Participant profile",
+    "alertSuccess": "The information about participant was successfully updated.",
+    "alertFail": "Updating failed."
+  },
+  "buddiesTable": {
+    "noBuddiesFound": "No Buddies Found.",
+    "inviteBuddyLink": {
+      "header": "Invite your buddy by sending invite link.",
+      "copyInviteMessage": "Invite link was successfully copied to clipboard."
+    },
+    "tableHeader": {
+      "buddy": "BUDDY",
+      "budget": "BUDGET",
+      "levelType": "SHPING LEVEL",
+      "inviteAcceptDate": "INVITE ACCEPT DATE",
+      "familyStatus": "FAMILY STATUS"
+    },
+    "buddyBudget": "{budget} SHPING",
+    "userLevels": {
+      "basic": "Basic",
+      "bronze": "Bronze",
+      "silver": "Silver",
+      "gold": "Gold",
+      "platinum": "Platinum",
+      "ambassador": "Ambassador"
+    },
+    "familyStatusPlaceholder": "Unspecified",
+    "familyStatusOptions": {
+      "family_together": "Family together",
+      "family_separately": "Family separately",
+      "friend": "Friend",
+      "other": "Other"
+    },
+    "pokeBuddy": "Poke buddy",
+    "deleteBuddy": "Delete buddy"
+  },
+  "profile": {
+    "userSettings": "User settings",
+    "participantSettings": "Participant settings",
+    "passwordSettings": "Password settings",
+    "buddies": "Buddies"
+  },
+  "integration": {
+    "api": "Shping API",
+    "aplications": "Applications",
+    "aplication": "Applications",
+    "submitButton": "Update",
+    "saveButton": "Save",
+    "aplictionsTab": {
+      "overview": {
+        "context": "The Yotpo application allows you to connect Shping reviews directly with your Yotpo integration. Learn more about Yotpo.",
+        "checkbox": "Enable Yotpo API"
+      },
+      "settings": {
+        "appKey": "Yotpo App Key",
+        "placeholder": "Please specify Yotpo App Key",
+        "checkbox": "Send reviews immediately to Yotpo without Shping moderation"
+      },
+      "status": {
+        "status": "Integration status: ",
+        "active": "Active",
+        "imported": "Imported reveiws",
+        "new": "New reviews",
+        "button": "Sync Reviews"
+      },
+      "shpingKeys": "Shping Console API keys"
+    }
+  },
+  "dropZone": {
+    "dropFilesHere": "Drop the files here",
+    "dropFilesToUpload": "Drop filed to upload",
+    "clickHere": "or click here"
+  },
+  "documents": {
+    "documentsColumnSetting": "Documents column settings",
+    "documentsLabel": "Documents",
+    "placeholder": "No documents found.",
+    "title": "Title",
+    "docType": "Doc Type",
+    "serialNumber": "Serial Number",
+    "deleteTooltip": "Delete GDTI",
+    "copyTooltip": "Copy id",
+    "confirmDelete": "Are you sure you want to delete this documents - {title}?",
+    "deleteSuccess": "The {title} document was successfully deleted",
+    "allProducts": "All products",
+    "deleteMessage": "Are you sure delete {id} GDTI?",
+    "deleteDocument": "Delete document",
+    "deleteFailMessage": "Unable to delete. The selected document is attached.",
+    "add": "Add document",
+    "form": {
+      "title": "Title - {language}",
+      "addLanguage": "Add Language",
+      "language": "Language",
+      "english": "English",
+      "type": "Type",
+      "typePlaceholder": "Select Type",
+      "save": "Save",
+      "back": "Back to Documents",
+      "docCreated": "Document was created",
+      "docUpdated": "Document was updated",
+      "leaveMessage": "Are you sure you want to exit Document editor? If yes the entered data won't be saved.",
+      "deleteTitle": "Delete title"
+    },
+    "tabs": {
+      "attach": "Attach to products",
+      "documents": "Document"
+    },
+    "attach": {
+      "allProducts": "All products",
+      "productsLabel": "Attach products",
+      "brandsLabel": "Attach brands",
+      "positionLabel": "Position on a product info (any number greater than 0)",
+      "selectPlaceholder": "Type to select",
+      "positionProductLabel": "Position on product info",
+      "zeroError": "The value must be greater then zero",
+      "attached": "Product was successfully attached.",
+      "detached": "Product was successfully detached.",
+      "success": "Attached products was successfully updated"
+    }
+  },
+  "campaigns": {
+    "notEnoughCoins": "Not enough coins on your deposit address",
+    "tabs": {
+      "rewards": "Rewards",
+      "bot": "Shping bot",
+      "shoutouts": "Shoutouts",
+      "boost": "Boost",
+      "reminder": "Reminders",
+      "featured": "Featured products",
+      "summary": "Summary Reports",
+      "summaryEditor": "Summary Reports Editor",
+      "cashbacks": "Cashbacks",
+      "cashout": "Cashout Boost",
+      "competitions": "Competitions",
+      "ads": "Shopping List Ads"
+    },
+    "competition": {
+      "headers": {
+        "competition": "Competitions",
+        "task": "Export Tasks",
+        "competitionPlaceholder": "No competitions available",
+        "taskPlaceholder": "No export task available"
+      },
+      "bodyTab1": {
+        "tableHeader1": "Name",
+        "tableHeader2": "Status",
+        "tableHeader3": "Start",
+        "tableHeader4": "End",
+        "tableHeader5": "Action",
+        "tableHeader6": "Link",
+        "tableHeader7": "Started",
+        "tableHeader8": "Finished"
+      },
+      "form": {
+        "stepText1": "Settings",
+        "stepText2": "ToDo card",
+        "stepText3": "ToDo card steps",
+        "stepText4": "Set up targeting",
+        "adjustmentSubtitle": "Shping exchange rate will update every hour after this competition starts."
+      },
+      "settings": {
+        "nameHeader": "Competition name",
+        "namePlaceholder": "Type competition name",
+        "dateHeader": "Date",
+        "descriptionHeader": "Description",
+        "descriptionPlaceholder": "Description",
+        "tclinkHeader": "Link to T&C of competition",
+        "tclinkPlaceholder": "T&C",
+        "allProductsHeader": "All products",
+        "productsHeader": "Products",
+        "productsPlaceholder": "Type to select",
+        "purchasedProductsHeader": "Purchased products",
+        "purchasedProductsPlaceholder": "Type to select",
+        "coinsHeader": "Shping Coins",
+        "coinsPlaceholder": "Coins for the card completion",
+        "card": {
+          "nameHeader": "Todo Card name",
+          "namePlaceholder": "Type ToDo card name",
+          "iconHeader": "Icon",
+          "descriptionHeader": "Description",
+          "descriptionPlaceholder": "Description"
+        }
+      },
+      "summary": {
+        "summaryHeading": "Competition summary",
+        "name": "Name",
+        "date": "Date",
+        "description": "Description",
+        "tclink": "Terms & Condition",
+        "products": "Products",
+        "allProducts": "All products",
+        "purchasedProducts": "Purchased products",
+        "coins": "Reward",
+        "coinsValue": "SHPING {coins}",
+        "countries": "Countries",
+        "gender": "Gender",
+        "languages": "Languages",
+        "age": "Age",
+        "card": {
+          "name": "Card name",
+          "header": "ToDo steps",
+          "stepCount": "Steps {number}"
+        }
+      },
+      "audience": {
+        "mainHeader": "Select your audience",
+        "countries": "Countries",
+        "languages": "Languages",
+        "age": "Age range",
+        "gender": "Gender"
+      }
+    },
+    "featured": {
+      "postCampaignFeaturedSuccess": "The featured product {name} was successfully created",
+      "putCampaignFeaturedSuccess": "The featured product {name} was successfully updated",
+      "title": "Featured products",
+      "activated": "activated",
+      "deactivated": "deactivated",
+      "active": "Active",
+      "inactive": "Inactive",
+      "chart": {
+        "title": "Featured products distribution",
+        "valueLabel": "Featured products distribution. Total: {total}"
+      },
+      "buttonCreate": "Add featured product",
+      "putCampaignFeaturedSuccessWithStatus": "The featured product {name} was successfully {status}",
+      "bodyTab1": {
+        "tablePlaceholder": "No featured product available",
+        "tableHeader1": "Name",
+        "tableHeader2": "Status",
+        "tableHeader3": "Start datetime",
+        "tableHeader4": "End datetime"
+      },
+      "form": {
+        "stepText1": "Settings",
+        "stepText2": "Targeting"
+      },
+      "settings": {
+        "nameHeader": "Featured product name",
+        "namePlaceholder": "Type featured product name",
+        "dateHeader": "Date",
+        "runtimeHeader": "Runtime",
+        "runtimePlaceholder": "Time",
+        "productsHeader": "Products",
+        "productsPlaceholder": "Type to select",
+        "evenDisrtibution": "Even distribution",
+        "options": "Options",
+        "selectTimePlaceholder": "Select time",
+        "startDatePlaceholder": "Start date",
+        "endDatePlaceholder": "End date",
+        "heroImage": "Hero image"
+      },
+      "summary": {
+        "summaryHeading": "Featured product summary",
+        "name": "Name",
+        "status": "Status",
+        "levels": "Levels",
+        "andYounger": "and Younger",
+        "all": "All",
+        "date": "Date",
+        "time": "Runtime",
+        "products": "Products",
+        "countries": "Countries",
+        "gender": "Gender",
+        "languages": "Languages",
+        "age": "Age",
+        "evenDisrtibution": "Even distribution",
+        "none": "None"
+      },
+      "audience": {
+        "mainHeader": "Select your audience",
+        "countries": "Countries",
+        "languages": "Languages",
+        "age": "Age range",
+        "gender": "Gender",
+        "levels": "Shping level"
+      }
+    },
+    "reminder": {
+      "buttonCreate": "Add reminder",
+      "putCampaignReminderSuccess": "The campaign reminder {name} was successfully updated",
+      "putCampaignReminderSuccessWithStatus": "The campaign reminder {name} was successfully {status}",
+      "postCampaignReminderSuccess": "The campaign reminder {name} was successfully created",
+      "bodyTab1": {
+        "tablePlaceholder": "No reminder available",
+        "tableHeader1": "Name",
+        "tableHeader2": "Status",
+        "tableHeader3": "Start datetime"
+      },
+      "summary": {
+        "summaryHeading": "Reminders summary",
+        "name": "Name",
+        "date": "Start date",
+        "time": "Start time",
+        "frequency": "Frequency",
+        "messages": "Messages",
+        "countries": "Countries",
+        "gender": "Gender",
+        "languages": "Languages",
+        "age": "Age",
+        "level": "Levels"
+      },
+      "settings": {
+        "nameHeader": "Reminder name",
+        "namePlaceholder": "Type reminder name",
+        "dateHeader": "Start date",
+        "timeHeader": "Reminder time",
+        "frequencyHeader": "Frequency",
+        "customDaysHeader": "Custom days",
+        "messageHeader": "Notification message/s"
+      },
+      "form": {
+        "frequencies": {
+          "once": "Once",
+          "daily": "Daily",
+          "weekly": "Weekly",
+          "monthly": "Monthly",
+          "yearly": "Yearly",
+          "working_days": "Weekdays",
+          "weekends": "Weekends",
+          "custom": "Custom"
+        },
+        "stepText1": "Settings",
+        "stepText2": "Targeting"
+      }
+    },
+    "boost": {
+      "postCampaignBoostSuccess": "The campaign boost {name} was successfully created",
+      "putCampaignBoostSuccess": "The campaign boost {name} was successfully updated",
+      "buttonCreate": "Create boost",
+      "putCampaignBoostSuccessWithStatus": "The campaign boost {name} was successfully {status}",
+      "expiredCampaignBoost": "The campaign boost cannot be activated because it is expired",
+      "form": {
+        "stepText1": "Settings",
+        "stepText2": "Targeting",
+        "stepText3": "Options",
+        "method": {
+          "scan": "Boost by scan",
+          "invitation": "Boost by invitation"
+        },
+        "none": "None",
+        "inc_level": "Level up",
+        "next_day_end": "Extend to one day more",
+        "last_date": "Same period"
+      },
+      "bodyTab1": {
+        "tablePlaceholder": "No boost available",
+        "tableHeader1": "Name",
+        "tableHeader2": "Status",
+        "tableHeader3": "Starts",
+        "tableHeader4": "Ends"
+      },
+      "summary": {
+        "title": "Boost summary",
+        "name": "Name",
+        "date": "Dates",
+        "period_min": "Days of boost",
+        "firstScan": "A first scan only",
+        "limit": "Number of users",
+        "countries": "Countries",
+        "gender": "Gender",
+        "languagex": "Languages",
+        "age": "Age",
+        "level": "Level",
+        "stopDate": "Stop Date",
+        "first": "Action at first invitation",
+        "firstPeriod": "Period",
+        "ifMaxLevel": "If the level is platinum",
+        "maxRepeat": "Max repeat",
+        "repeat": "Action at next invitation",
+        "repeatPeriod": "Period"
+      },
+      "settings": {
+        "nameHeader": "Boost campaign name",
+        "namePlaceholder": "Type boost campaign name",
+        "dateHeader": "When do you want to run this boost",
+        "stopDateHeader": "Stop date",
+        "periodMinHeader": "Day/s of boost",
+        "periodMinPlaceholder": "Type day/s of boost",
+        "limitHeader": "Limit of number of users",
+        "limitPlaceholder": "Type limit of number of users",
+        "productsHeader": "List of products",
+        "productsPlaceholder": "Type to select",
+        "audienceHeader": "Select your audience",
+        "levelHeader": "Boost granted level",
+        "stopDateError": "Stop date must be more than start date",
+        "firstScanHeader": "A first scan only",
+        "firstHeader": "Action at first invitation",
+        "firstPeriodHeader": "Period",
+        "ifMaxLevelHeader": "If the level is platinum",
+        "maxRepeatHeader": "Max repeat",
+        "repeatHeader": "Action at next invitation",
+        "repeatPeriodHeader": "Period"
+      }
+    },
+    "rewards": {
+      "budgetLessThenCoinsError": "Budget is less than coins per action",
+      "postCreateRewardSuccess": "The campaign {name} was successfully created",
+      "putRewardSuccess": "The campaign {name} was successfully updated",
+      "deleteRewardSuccess": "Campaign reward was successfully deleted",
+      "pendingRewardSuccess": "Activating campaign, this might take a few minutes.",
+      "deactivateRewardSuccess": "Deactivating campaign, this might take a few minutes.",
+      "buttonCreate": "Create campaign",
+      "buttonFilter": "Add filters",
+      "deleteMessage": "Are you sure you want to delete this campaign - {name}?",
+      "pendingMessage": "You have pending campaign activations and your available balance might be less than your selected campaign budget. Do you still want to continue?",
+      "valueIndicators": {
+        "header": "Rewards",
+        "valueLabel1": "Impressions",
+        "valueLabel2": "Issued",
+        "valueLabel3": "Interaction rate",
+        "valueLabel4": "Approved coins"
+      },
+      "chartRewards": {
+        "valueLabel": "Approved coins. Total: {total}",
+        "key": "Approved coins"
+      },
+      "bodyTab1": {
+        "title": "Rewards",
+        "tablePlaceholder": "No campaigns available",
+        "tableHeader1": "Name",
+        "tableHeader2": "Status",
+        "tableHeader3": "Starts",
+        "tableHeader4": "Ends",
+        "tableHeader5": "Budget",
+        "tableHeader6": "Spent"
+      },
+      "bodyTab2": {
+        "title": "Locations"
+      },
+      "bodyTab3": {
+        "title": "Demographics"
+      },
+      "bodyTab4": {
+        "title": "Rewards type"
+      },
+      "filters": {
+        "action": "Action",
+        "actionPlaceholder": "Select an action",
+        "gender": "Gender",
+        "genderPlaceholder": "Select gender",
+        "age": "Age range",
+        "userLevels": "Shping level",
+        "userLevelsPlaceholder": "Select a Shping level",
+        "condition": "Restriction",
+        "conditionPlaceholder": "Select a time restriction",
+        "date": "Date range"
+      },
+      "form": {
+        "start_date": "Start Date",
+        "end_date": "End Date",
+        "partnerBrand": "Partner brand",
+        "levels": {
+          "basic": "Basic",
+          "bronze": "Bronze",
+          "silver": "Silver",
+          "gold": "Gold",
+          "ambasad": "Ambassador",
+          "ambassador": "Ambassador",
+          "platinum": "Platinum"
+        },
+        "locations": {
+          "state": "State",
+          "postcode": "Select Postcode",
+          "rePostcode": "Retailer receipt postcode",
+          "city": "City",
+          "retailers": "Retailers",
+          "reRetailers": "Retailer Receipts Support",
+          "country": "Country"
+        },
+        "rewardsActionOptions": {
+          "viewText": "View text",
+          "viewPopup": "View popup",
+          "viewImage": "View image",
+          "viewStatus": "View status",
+          "viewNutritionInfo": "View nutrition info",
+          "viewCertificates": "View certificates",
+          "visitLink": "Visit link",
+          "watchVideo": "Watch promo video",
+          "followOnFb": "Follow on FB",
+          "scanProduct": "Scan product"
+        },
+        "summary": {
+          "header": "Rewards summary",
+          "name": "Name",
+          "status": "Status",
+          "active": "Active",
+          "inactive": "Inactive",
+          "action": "Action",
+          "reward": "Reward",
+          "dates": "Dates",
+          "countries": "Countries",
+          "languages": "Languages",
+          "gender": "Gender",
+          "age": "Age",
+          "all": "All",
+          "levels": "Levels",
+          "restrictions": "Restrictions",
+          "budget": {
+            "day": "Daily budget",
+            "month": "Monthly budget",
+            "week": "Weekly budget",
+            "total": "Total budget",
+            "unlimited": "Unlimited"
+          },
+          "none": "None",
+          "points": "points",
+          "location": "Unique per store",
+          "condition": {
+            "daily": "once per day",
+            "monthly": "once per month",
+            "weekly": "once per week",
+            "once": "single reward"
+          }
+        },
+        "stepText1": "Settings",
+        "stepText2": "Targeting",
+        "stepText3": "Products",
+        "nameTitle": "Reward campaign name",
+        "namePlaceholder": "Type reward campaign name",
+        "actionTitle": "Select action and value",
+        "actionPlaceholder": "Select one action you want to reward",
+        "actionValuePlaceholder": "Coins per action",
+        "frequencyTitle": "When do you want to run this campaign",
+        "frequencyOption1": "Start immediately, run continuously",
+        "frequencyOption2": "Set start and end dates",
+        "rewardsAdjustmentTitle": "Rewards Adjustment",
+        "rewardsAdjustmentInactive": "Inactive",
+        "rewardsAdjustmentActive": "Active",
+        "rewardsAdjustmentAmountTitle": "Amount per action in {currency}",
+        "rewardsAdjustmentStepTitle": "Adjustment step",
+        "rewardsSubtitle": "Shping exchange rate will update every hour after this campaign starts.",
+        "rewardsDailyMaximum": "The converted amount is approximate. It can fluctuate to the Shping's value and the actual converted amount can be different.",
+        "rewardsAdjustmentStepError": "Adjustment step must be equal or less than Amount per action",
+        "budgetTitle": "Set your budget",
+        "budgetOption1": "Unlimited",
+        "budgetOption2": "Daily limit",
+        "budgetOption3": "Weekly limit",
+        "budgetOption4": "Monthly limit",
+        "budgetMaximumTitle2": "Daily maximum",
+        "budgetMaximumTitle3": "Weekly maximum",
+        "budgetMaximumTitle4": "Monthly maximum",
+        "budgetSpendingsLabel_day": "See daily spent",
+        "budgetSpendingsLabel_week": "See weekly spent",
+        "budgetSpendingsLabel_month": "See monthly spent",
+        "budgetSpendingsLabel_overall": "See overall spent",
+        "budgetSpendingsText_day": "Your total daily spent is {coins} since {date}",
+        "budgetSpendingsText_week": "Your total weekly spent is {coins} since {date}",
+        "budgetSpendingsText_month": "Your total monthly spent is {coins} since {date}",
+        "budgetSpendingsText_overall": "Your total spent is {coins}",
+        "budgetTotalTitle": "Total budget",
+        "budgetSummaryText2": "Daily budget",
+        "budgetSummaryText3": "Weekly budget",
+        "budgetSummaryText4": "Monthly budget",
+        "conditionTitle": "Restrictions",
+        "conditionUniqueLocation": "Unique location",
+        "conditionUniqueLocationSummary": "Unique per store, {value}",
+        "conditionTimeTitle": "Reward Frequency",
+        "conditionAllProductsLabel": "All products",
+        "conditionAllOptionsLabel": "One-off reward for campaign period",
+        "conditionOption1": "Single reward",
+        "conditionOption2": "Per day",
+        "conditionOption3": "Per week",
+        "conditionOption4": "Per month",
+        "genderOptionAny": "All",
+        "genderOptionOther": "Other",
+        "genderOptionMale": "Male",
+        "genderOptionFemale": "Female",
+        "registrationOption1": "Registered via Facebook",
+        "registrationOption2": "Registered via Email",
+        "registrationSummary1": "Facebook",
+        "registrationSummary2": "Email",
+        "ageOption1": "13-17 y.o",
+        "ageOption2": "18-24 y.o",
+        "ageOption3": "25-34 y.o",
+        "ageOption4": "35-54 y.o",
+        "ageOption5": "55-64 y.o",
+        "ageOption6": "65+ y.o",
+        "audienceTitle": "Select your audience",
+        "levelTitle": "Shping level:",
+        "rewardsValue": "SHPING {value}",
+        "tableAssignHeader1": "GTIN",
+        "tableAssignHeader2": "Name",
+        "summaryTitle": "Rewards summary",
+        "summaryNameLabel": "Name",
+        "summaryActionLabel": "Action",
+        "summaryDeliveryLabel": "Delivery mode",
+        "numberOfMonths": "Number of months in the past",
+        "summaryStatusLabel": "Status",
+        "summaryRewardLabel": "Reward",
+        "summaryDatesLabel": "Dates",
+        "summaryCountriesLabel": "Countries",
+        "summaryGenderLabel": "Gender",
+        "summaryLanguagesLabel": "Languages",
+        "summaryAgeLabel": "Age",
+        "summaryLevelsLabel": "Levels",
+        "summaryRestrictionsLabel": "Restrictions",
+        "summaryBudgetLabel": "Total budget",
+        "recognizedReceiptActive": "Active",
+        "recognizedReceiptInactive": "Inactive",
+        "nameTitleRecognizedReceipt": "Recognized receipt",
+        "addCountry": "Add Country",
+        "state": "State",
+        "postcode": "Select Postcode",
+        "city": "City",
+        "retailers": "Retailers"
+      },
+      "geoTargeting": "Geo Targeting",
+      "geoTargetingCollapse": {
+        "state": "State",
+        "city": "City",
+        "selectPostcode": "Select Postcode",
+        "retailers": "Retailers",
+        "locationSettings": "Location Settings",
+        "country": "Country",
+        "selectCountry": "Select Country",
+        "update": "Update",
+        "addCountry": "Add Country",
+        "geoTargetting": "GEO Targeting",
+        "Field": "Field",
+        "Name": "Name",
+        "String": "String"
+      }
+    },
+    "bot": {
+      "deleteBotSuccess": "Bot was successfully deleted",
+      "putBotSuccess": "Shping Bot {name} was successfully updated",
+      "postCreateBotSuccess": "Shping Bot {name} was successfully created",
+      "buttonCreate": "Create bot",
+      "deleteMessage": "Are you sure you want to delete this bot - {name}?",
+      "panelHeader": "No Bots Found",
+      "panelBody1": "Create your first bot by clicking the create button above.",
+      "panelBody2": "No bots were found on current filter. Please update your filter values.",
+      "tableHeader1": "Bot campaigns",
+      "tableHeader2": "Status",
+      "tableHeader3": "Products",
+      "tableHeader4": "Starts",
+      "tableHeader5": "Ends",
+      "filters": {
+        "date": "Date range",
+        "gender": "Gender",
+        "genderPlaceholder": "Select gender",
+        "age": "Age range",
+        "registration": "Type of registration",
+        "registrationPlaceholder": "Select registration type"
+      },
+      "form": {
+        "stepText1": "Settings",
+        "stepText2": "Targetting",
+        "stepText3": "Pick up content",
+        "stepText4": "Assign products",
+        "panelHeader": "How Shping bot works?",
+        "panelBody": "Shping Marketing allows you to target curated content to specific user groups. Please select your targeting, then define the content and assign to the products of your choice.",
+        "nameTitle": "Bot campaign name",
+        "namePlaceholder": "Type reward campaign name",
+        "timingTitle": "Timing",
+        "audienceTitle": "Select your audience",
+        "lastScanDateTitle": "Last scan date",
+        "weeklyScansTitle": "Number of weekly scans",
+        "weeklyScansFromPlaceholder": "From",
+        "weeklyScansToPlaceholder": "To",
+        "scannedCountriesTitle": "Countries where user scanned a product",
+        "registrationTitle": "Type of registration",
+        "contentError": "You need to have at least one text or media scan to create a bot.",
+        "countryChoiceError": "You need to choose a country to create GEO Targeting.",
+        "reCountryChoiceError": "You need to choose another country to create GEO Targeting.",
+        "textContentTitle": "Text content",
+        "textTitle": "Title",
+        "contentTitle": "Content",
+        "textTitlePlaceholder": "Title of the text description",
+        "textBodyPlaceholder": "Type text that a user will see",
+        "textTooltip": "Different versions of the description will be shown to your target users depending on the usage context",
+        "buttonAddDescription": "Add description",
+        "mediaContentTitle": "Photo or video",
+        "mediaTitle": "Title",
+        "mediaTitleTitle": "Title of the media content",
+        "scanValue": "Scan #{value}",
+        "buttonAddFiles": "Add more files",
+        "mediaTooltip": "Different versions of a photo/video will be shown to your target users depending on the usage context",
+        "summaryTitle": "Targeting summary",
+        "summaryNameLabel": "Name",
+        "summaryStatusLabel": "Status",
+        "summaryDatesLabel": "Dates",
+        "summaryCountriesLabel": "Countries",
+        "summaryLanguagesLabel": "Languages",
+        "summaryGenderLabel": "Gender",
+        "summaryAgeLabel": "Age",
+        "summaryScanDateLabel": "Scan date",
+        "summaryWeeklyScansLabel": "Weekly scans",
+        "summaryScannedCountriesLabel": "Scanned countries",
+        "summaryRegistrationLabel": "Registration types"
+      }
+    },
+    "shoutouts": {
+      "createShoutoutSuccess": "Shoutout {name} was successfully created",
+      "updateShoutoutSuccess": "Shoutout {name} was successfully updated",
+      "deleteShoutoutSuccess": "Shoutout was successfully deleted",
+      "panelHeader": "No Shoutouts Found",
+      "panelBody1": "Create your first shoutout by clicking the create button above.",
+      "panelBody2": "No shoutouts were found on current filter. Please update your filter values.",
+      "tableHeader1": "Shoutouts",
+      "tableHeader2": "Status",
+      "tableHeader3": "Products",
+      "tableHeader4": "Starts",
+      "tableHeader5": "Ends",
+      "buttonCreate": "Create shoutout",
+      "deleteMessage": "Are you sure you want to delete this shoutout - {name}?",
+      "statusOptions": {
+        "active": "Active",
+        "inactive": "Inactive"
+      },
+      "filters": {
+        "date": "Date range",
+        "status": "Status",
+        "statusPlaceholder": "Select status",
+        "country": "Country",
+        "countryPlaceholder": "Select country",
+        "language": "Language",
+        "languagePlaceholder": "Select language",
+        "gender": "Gender",
+        "genderPlaceholder": "Select gender",
+        "age": "Age range",
+        "userLevels": "Shping level",
+        "userLevelsPlaceholder": "Select Shping level"
+      },
+      "form": {
+        "validation": {
+          "pushMessageMaxLength": "Maximum text length is 110 symbols.",
+          "pushMessageMinLength": "Text is too short."
+        },
+        "stepText1": "Settings",
+        "stepText2": "Targeting",
+        "stepText3": "Assign products",
+        "nameTitle": "Shoutout name",
+        "namePlaceholder": "Type shoutout name",
+        "pushMessageTitle": "Push message",
+        "pushMessagePlaceholder": "Type push message text",
+        "pushMessageDelayPlaceholder": "Delay in minutes",
+        "pushMessageDelayTooltip": "Delay in minutes when message will be send",
+        "matchingCampaignCountPlaceholder": "Count of the matching scans",
+        "matchingCampaignCountTooltip": "Count of the matching campaign scans when message will be send",
+        "timingTitle": "When do you want to run this shoutout",
+        "audienceTitle": "Select your audience",
+        "lastScanDateTitle": "Last scan date",
+        "lastScanDateInverse": "Inverse",
+        "weeklyScansTitle": "Number of weekly scans",
+        "weeklyScansFromPlaceholder": "From",
+        "weeklyScansToPlaceholder": "To",
+        "weeklyScansInverse": "Inverse",
+        "weeklyScansWrongRange": "Please enter correct range.",
+        "enterWeeklyScansFrom": "Please enter range start.",
+        "enterWeeklyScansTo": "Please enter range end.",
+        "ageOption": "{age} y.o.",
+        "levelTitle": "Shping level",
+        "brandScansTitle": "Products brands scans",
+        "brandScansFromPlaceholder": "From",
+        "brandScansToPlaceholder": "To",
+        "brandScansInverse": "Inverse",
+        "enterBrandScansFrom": "Please enter range start.",
+        "enterBrandScansTo": "Please enter range end.",
+        "brandScansWrongRange": "Please enter correct range.",
+        "brandScansDateRange": "Please select start and end dates.",
+        "scannedCountriesTitle": "Countries where user scanned a product",
+        "scannedCountriesInverse": "Inverse",
+        "requiredProducts": " Please assign product(s) to the shout out.",
+        "summaryTitle": "Shoutout summary",
+        "summaryNameLabel": "Name",
+        "summaryStatusLabel": "Status",
+        "summaryPushMessageLabel": "Push message",
+        "summaryPushDelayLabel": "Delay (minutes)",
+        "summaryPushMatchingCampaignCountLabel": "Count",
+        "summaryDatesLabel": "Dates",
+        "summaryCountriesLabel": "Countries",
+        "summaryLanguagesLabel": "Languages",
+        "summaryGenderLabel": "Gender",
+        "summaryAgeLabel": "Age",
+        "summaryAgeAnyAge": "Any",
+        "summaryAgeXAndYounger": "{maxAge} y.o and younger",
+        "summaryAgeXAndOlder": "{minAge} y.o and older",
+        "summaryLevelsLabel": "Levels",
+        "summaryScanDateLabel": "Scan date",
+        "summaryScanDateUnspecified": "Any",
+        "summaryWeeklyScansLabel": "Weekly scans",
+        "summaryScannedCountriesLabel": "Scanned countries",
+        "summaryScannedCountriesUnspecified": "Any"
+      }
+    },
+    "summaryReports": {
+      "add": "Add Summary Report",
+      "deletePop": "Delete report",
+      "successDelete": "Summary report successfully deleted",
+      "selectUsers": "Select Users or enter User ID",
+      "selectProducts": "Type to select",
+      "selectCountries": "Select Countries",
+      "deleteDialog": "Are you sure to delete this summary report?",
+      "reportPlaceholder": "No record found for now",
+      "settings": "Settings",
+      "products": "Products",
+      "dateInterval": "Interval (Days)",
+      "labelCountries": "Countries",
+      "labelProducts": "List of Products",
+      "usersBlacklist": "List of Exclude Users",
+      "successMessage": "New summary report request has been processed",
+      "date": {
+        "error": {
+          "from": "Start date is required",
+          "to": "End date is required",
+          "invalid": "Invalid days interval, you have to make sure that is 30 days interval only"
+        }
+      },
+      "item": {
+        "status": "Status: ",
+        "startDate": "Start Date: ",
+        "email": "Email: ",
+        "fromDate": "From Date: ",
+        "toDate": "To Date: ",
+        "countries": "Countries: ",
+        "countriesSummary": "Countries",
+        "productsSummary": "Products",
+        "usersBlacklistSummary": "Exclude Users",
+        "products": "Products: ",
+        "usersBlacklist": "Exclude Users: ",
+        "filters": "Filters",
+        "in_progress": "In progress",
+        "failure": "Failure",
+        "success": "Success"
+      },
+      "scans": {
+        "total": "Total Scan",
+        "unique": "Unique User Scan",
+        "authorized": "Authorized Scan"
+      },
+      "socialMedia": {
+        "url": "URL",
+        "count": "Count",
+        "title": "Social Media ({count})"
+      },
+      "video": {
+        "name": "Name",
+        "url": "URL",
+        "count": "Count",
+        "title": "Videos ({count})"
+      },
+      "links": {
+        "url": "URL",
+        "count": "Count",
+        "title": "Links ({count})"
+      }
+    },
+    "shoppingListAds": {
+      "buttonCreate": "Add a new ad",
+      "buttonLocationCreate": "Add a new location",
+      "buttonLocationUpdate": "Edit",
+      "buttonLocationDelete": "Delete",
+      "buttonLocationSave": "Save",
+      "buttonLocationCancel": "Cancel",
+      "buttonLocationContinue": "Continue",
+      "deleteLocationConfirm": "Are you sure to delete this location?",
+      "deleteSectionConfirm": "Are you sure you want to delete this section?",
+      "deleteConfirm": "Are you sure to delete this ad - {name}?",
+      "requiredMessage": "This is required",
+      "tableHeader": {
+        "name": "Name",
+        "type": "Type",
+        "status": "Status"
+      },
+      "actions": {
+        "next": "Next",
+        "save": "Save",
+        "previous": "Previous"
+      },
+      "steps": {
+        "settings": {
+          "title": "Settings"
+        },
+        "audience": {
+          "title": "Audience"
+        },
+        "cta": {
+          "title": "CTA"
+        }
+      },
+      "adType": {
+        "top_category_ad": "Top of category ad",
+        "top_category_listing": "Top of category listing",
+        "top_keyword_ad": "Top of keyword ad",
+        "top_keyword_listing": "Top of keyword listing",
+        "main_page_ad": "Main page ad"
+      },
+      "gender": {
+        "all": "All",
+        "male": "Male",
+        "female": "Female",
+        "other": "Other"
+      },
+      "userLevels": {
+        "basic": "Basic",
+        "bronze": "Bronze",
+        "silver": "Silver",
+        "gold": "Gold",
+        "platinum": "Platinum",
+        "ambassador": "Ambassador"
+      },
+      "fields": {
+        "name": "Shopping List Ad Name",
+        "ad_type": "Ad Type",
+        "owner": "Owner",
+        "categories": "Categories",
+        "keywords": "Keywords",
+        "images": "Image (optimal width and height: {size})",
+        "locations": "Locations",
+        "languages": "Languages",
+        "gender": "Gender",
+        "country": "Country",
+        "levels": "User levels",
+        "state": "State",
+        "ageRange": "Age Range",
+        "postcode": "Postcode",
+        "info_type": "Info Type",
+        "target_gtin": "Target Gtin",
+        "gtin": "GTIN",
+        "full_range_gtins": "Full Range GTINs",
+        "weight": "Weight",
+        "status": "Status"
+      },
+      "info_type": {
+        "learn_more": "Learn More GTIN",
+        "add2list": "Shopping List GTIN"
+      }
+    },
+    "cashbacks": {
+      "subViewTitle": "Campaign Overview",
+      "buttonCreate": "Create a Cashback Campaign",
+      "buttonLocationCreate": "Add a new location",
+      "buttonLocationUpdate": "Edit",
+      "buttonLocationDelete": "Delete",
+      "buttonLocationSave": "Save",
+      "buttonLocationCancel": "Cancel",
+      "deleteLocationConfirm": "Are you sure to delete this location?",
+      "deleteConfirm": "Are you sure to delete this Cashback Campaign - {name}?",
+      "requiredMessage": "This is required",
+      "purchasedProductsRequiredMessage": "Please add at least one product",
+      "deepLink": "Campaign Deep Link",
+      "published": "Published",
+      "tableHeader": {
+        "name": "Name",
+        "type": "Type",
+        "start": "Start",
+        "end": "End",
+        "actions": "Actions",
+        "status": "Status",
+        "budget": "Budget",
+        "remaining": "Remaining",
+        "created": "Created",
+        "products": "Products",
+        "campaignName": "Campaign name"
+      },
+      "actions": {
+        "add": "Add",
+        "next": "Next",
+        "edit": "Edit",
+        "review": "Review",
+        "remove": "Remove",
+        "delete": "Delete",
+        "save": "Save",
+        "previous": "Previous",
+        "publish": "Save & Publish"
+      },
+      "publishConfirm": {
+        "cancel": "Cancel",
+        "confirm": "Confirm",
+        "publishAt": "Publish Time",
+        "description": "After publishing this cashback campaign, you confirm that the campaign will be started on the planned date and cannot be changed anymore. However, you still will be able to change the campaign state - active or inactive.",
+        "descriptionBoost": "After publishing this Cashout Booster campaign, you confirm that the campaign will be started on the planned date and cannot be changed anymore. However, you still will be able to change the campaign state - active or inactive.",
+        "minValidator": "Publish time should be previous than Campaign start date"
+      },
+      "steps": {
+        "settings": {
+          "title": "Settings",
+          "compaignContraints": "Campaign Constraints",
+          "rewardOptions": "Reward Options",
+          "messages": "Messages",
+          "moderation": "Moderation"
+        },
+        "products": {
+          "title": "Products & Restrictions",
+          "products": "Products",
+          "campaignRestrictions": "Campaign Restrictions",
+          "receiptRestrictions": "Receipt Restrictions"
+        },
+        "steps": {
+          "title": "Steps",
+          "previewTitle": "ToDo Steps"
+        },
+        "targeting": {
+          "title": "Targeting"
+        }
+      },
+      "fields": {
+        "name": "Campaign Name",
+        "range_date": "Campaign Date",
+        "receipt_range_date": "Receipt date",
+        "campaignLogo": "Campaign Logo",
+        "compaignLogoTip": "Recommanded resolution is 720x300 (12:5) or 300x300 (1:1)",
+        "campaignBanner": "Campaign Banner",
+        "compaignBannerTip": "Recommanded resolution is 680x560 (17:4)",
+        "campaignMissionBanner": "Campaign Main Banner",
+        "compaignMissionBannerTip": "Recommanded aspect ration is 5:3 and max resolutions is 3200x1920",
+        "terms": "Terms & Conditions",
+        "currency": "Campaign Currency",
+        "budget": "Campaign Budget",
+        "claims": "Max claims per campaign",
+        "claimsPerGtin": "Max claims per GTIN per campaign",
+        "claimsPerUser": "Claims Per User",
+        "capInReceipt": "Cap in receipt",
+        "perxProduct": "On every X item",
+        "value": "Cashback Value",
+        "rewardType": "Reward Type",
+        "rewardTypeFixed": "Fixed",
+        "rewardTypePercent": "Percent",
+        "rewardTypeTip": "Fixed cashback value or percentage from sale",
+        "moderationMode": "Moderation Mode",
+        "moderationModeManual": "Manual",
+        "moderationModeAutomatic": "Automatic",
+        "messageSuccess": "Success",
+        "messageSuccessTip": "User will see this message on cashback submission",
+        "messageRejection": "Rejection",
+        "messageRejectionTip": "User will see this message on cashback rejection",
+        "messagePending": "Pending Message",
+        "messagePendingTip": "User will see this message on cashback pending",
+        "messageManaulRejection": "Claim rejection",
+        "messageManaulRejectionTip": "User will see this message on cashback claim rejection",
+        "countries": "Countries",
+        "cities": "Cities",
+        "languages": "Languages",
+        "postcodes": "Postcodes",
+        "retailers": "Retailer Receipts Support",
+        "receiptPostcodes": "Retailer Receipt Postcode",
+        "gender": "Gender",
+        "userLevels": "User levels",
+        "ageRange": "Age Range",
+        "icon": "Icon",
+        "description": "Description",
+        "allProducts": "All products",
+        "campaignReceiptLevel": "Receipt level",
+        "labelProducts": "Products",
+        "startDate": "Start Date",
+        "endDate": "End Date",
+        "campainName": "Campaign name",
+        "approveMode": "Approve Mode",
+        "viewRetailers": "Retailers",
+        "status": "Status",
+        "campaignBudget": "Campaign Budget",
+        "remainingBudget": "Remaining Budget",
+        "cashback": "Cashback",
+        "maxProductValue": "Max Product Value",
+        "filter": "Filter",
+        "products": {
+          "gtn": "Product(GTN)",
+          "minQty": "Min Quantity",
+          "maxQty": "Max Quantity",
+          "maxPrice": "Max Price",
+          "perxProduct": "On every X item",
+          "required": "Required",
+          "requiredTip": "Product must be included to the receipt",
+          "requiredTrue": "Yes",
+          "requiredFalse": "No"
+        }
+      },
+      "gender": {
+        "all": "All",
+        "male": "Male",
+        "female": "Female",
+        "other": "Other"
+      },
+      "submissions": {
+        "acceptModalTitle": "Are you sure to accept this submission?",
+        "rejectModalTitle": "Are you sure to accept this submission?",
+        "tableHeader": {
+          "firstName": "First Name",
+          "lastName": "Last Name",
+          "retailer": "Retailer",
+          "products": "Products",
+          "price": "Price",
+          "cashback": "Cashback",
+          "state": "State",
+          "date": "Date",
+          "cashbackAmount": "Cashback Amount",
+          "actions": "Actions"
+        },
+        "actions": {
+          "accept": "Accept",
+          "reject": "Reject",
+          "edit": "Edit",
+          "review": "Review"
+        },
+        "status": {
+          "filled": "Filled",
+          "under_review": "Under Review",
+          "completed": "Completed",
+          "failure": "Failure"
+        },
+        "prices": {
+          "gtin": "GTIN",
+          "name": "Name",
+          "amount": "Amount",
+          "quantity": "Quantity",
+          "updateSuccess": "The item was updated successfully",
+          "updateFail": "Failed to update the item"
+        }
+      },
+      "expandedPrices": {
+        "tableHeader": {
+          "name": "Name on receipt",
+          "quantity": "Quantity",
+          "cost": "Cost",
+          "product": "Product",
+          "actions": "Actions"
+        }
+      }
+    },
+    "cashout": {
+      "buttonCreate": "Create campaign",
+      "deleteConfirm": "Are you sure to delete this Cashout Booster - {name}?"
+    }
+  },
+  "reviews": {
+    "invalidFileType": "File type '{type}' is invalid",
+    "header": "All reviews",
+    "headerTemplate": "All Templates",
+    "templatesCount": "Total: {value}",
+    "subHeader": "reviews: {value} ",
+    "templateEditor": "Review Template Editor",
+    "notAvailable": "No reviews available yet",
+    "notAvailableTemplates": "No templates available yet",
+    "statusLabel": "Status",
+    "ownerLabel": "Owner",
+    "deleteConfirmation": "Are you sure to delete this template?",
+    "successMessage": "New template has been added",
+    "editMessage": "Template has been updated",
+    "dateCreatedLabel": "Date Created",
+    "countriesLabel": "Countries",
+    "languagesLabel": "Languages",
+    "gtinLabel": "Product ID",
+    "usernameLabel": "First/last name",
+    "statusPlaceholder": "Select statuses",
+    "gtinPlaceholder": "Enter product ID",
+    "usernamePlaceholder": "Enter first name or last name",
+    "selectAll": "Select All",
+    "select": "Select",
+    "selectYourChoice": "Select type of question",
+    "acceptSelected": "Accept selected records",
+    "deleteTemplate": "Delete this template",
+    "status": {
+      "opened": "Opened",
+      "approved": "Approved",
+      "rejected": "Rejected",
+      "reported": "Reported",
+      "unreviewed": "Unreviewed",
+      "deleted": "Deleted"
+    },
+    "actions": {
+      "accept": "Accept",
+      "reject": "Reject",
+      "acceptAll": "Accept all",
+      "rejectAll": "Reject all",
+      "submit": "Submit",
+      "viewStatus": "Show all batch review task"
+    },
+    "tabs": {
+      "reviews": "Reviews",
+      "templates": "Templates"
+    },
+    "validation": {
+      "name": "Name is required",
+      "required": "This is required",
+      "minzero": "Please enter over 0",
+      "maxthousand": "Please enter below 1000",
+      "steps": "Create at least one step",
+      "weight": "Weight must be a positive number between 0 and 1000",
+      "gtin": {
+        "numberTooShort": "The GTIN you entered is too short. Please try again.",
+        "numberTooLong": "The GTIN you entered is too long. Please try again.",
+        "numberIncorrect": "The GTIN you entered is incorrect.",
+        "barcodeRequired": "Barcode is required.",
+        "barcodeInvalid": "Barcode is invalid"
+      }
+    },
+    "tags": {
+      "label": "Tags",
+      "placeholder": "Enter your tags"
+    },
+    "templates": {
+      "actions": {
+        "save": "Save",
+        "cancel": "Cancel",
+        "add": "Add Template"
+      },
+      "steps": {
+        "createMessage": "You created new step",
+        "updateMessage": "You updated the step",
+        "removeMessage": "You deleted the step",
+        "save": "Save Step",
+        "cancel": "Cancel",
+        "step1": "Settings",
+        "step2": "Steps",
+        "stepCount": "Steps {number}",
+        "action": "Action"
+      },
+      "action": {
+        "steps": "Steps: {number}",
+        "step": "Step: {number}"
+      },
+      "form": {
+        "nameTitle": "Name",
+        "namePlaceholder": "Name",
+        "iconTitle": "Icon",
+        "descriptionTitle": "Description",
+        "descriptionPlaceholder": "Description",
+        "coinsTitle": "Shping coins",
+        "coinsPlaceholder": "Coins",
+        "prize": "Description of the competition prize",
+        "terms_conds": "Text or URL of Terms and Conditions",
+        "eligibility": "Eligibility criteria for the competition",
+        "type": {
+          "header": "Type",
+          "title": "Title",
+          "weight": "Weight",
+          "text": {
+            "button": "TEXT",
+            "label": "Text"
+          },
+          "textbox": {
+            "button": "TEXTBOX"
+          },
+          "rating": {
+            "label": "Rating",
+            "button": "RATING"
+          },
+          "question": {
+            "button": "QUESTION",
+            "label": "Question",
+            "addAnswer": "Add Answer",
+            "answer": "Answer {number}",
+            "correct": "Correct"
+          },
+          "image": "IMAGE",
+          "contacts": "Contact information",
+          "receipt": "Receipt"
+        },
+        "titleLabel": "Title",
+        "textLabel": "Text",
+        "actionOptionUndefined": "Undefined",
+        "actionOptionReview": "Review"
+      }
+    },
+    "comments": {
+      "label": "Comments",
+      "placeholder": "Enter your comment",
+      "confirmDelete": "Are you sure you want to delete this comment?"
+    }
+  },
+  "tariff": {
+    "buttonCreate": "Add Tariff",
+    "deleteConfirm": "Are you sure to delete this Tariff - {name}?",
+    "tableHeader": {
+      "start": "Tariff Start Date",
+      "created": "Created",
+      "actions": "Actions"
+    },
+    "fields": {
+      "start_date": "Start Date"
+    },
+    "actions": {
+      "save": "Save",
+      "cancel": "Cancel"
+    },
+    "alerts": {
+      "addSuccess": "New Tariff added successfully",
+      "addFail": "Failed to add Tariff",
+      "updateSuccess": "Tariff updated successfully",
+      "updateFail": "Failed to update Tariff",
+      "deleteSuccess": "Tariff deleted successfully",
+      "deleteFail": "Failed to delete Tariff"
+    },
+    "formSetting": "Tariff Settings",
+    "formEngagement": "Engagements",
+    "formCashback": "Cashback Settings"
+  },
+  "customer": {
+    "filters": {
+      "id": "ID",
+      "name": "Name",
+      "partnerBrand": "Partner Brand",
+      "category_top_ad": "Top of category ad",
+      "category_top_listing": "Top of category listing",
+      "keyword_top_ad": "Top of keyword ad",
+      "keyword_top_listing": "Top of keyword listing",
+      "main_page_ad": "Main page ad",
+      "payingCustomer": "Paying Customer"
+    },
+    "plans": {
+      "per": "{currency}/mo",
+      "free": "Free",
+      "current": "Current plan",
+      "currently": "You currently on {planName} plan.",
+      "choose2": "Choose plan",
+      "choose": "Choose your plan",
+      "choose_tba": "Get quote",
+      "planNames": {
+        "basic": "Essentials",
+        "light": "Professional",
+        "pro": "PRO",
+        "pro-corp": "PRO-CORP",
+        "complete": "Professional+",
+        "complete+": "Enterprise",
+        "corporate": "Unlimited",
+        "custom": "Custom",
+        "lite": "Lite"
+      }
+    },
+    "form": {
+      "type": {
+        "label": "Type",
+        "error": "Type is required",
+        "placeholder": "Select Type"
+      },
+      "source": {
+        "label": "Source",
+        "error": "Source is required",
+        "placeholder": "Select Source"
+      },
+      "status": {
+        "label": "Status",
+        "error": "Status is required",
+        "placeholder": "Select Status"
+      },
+      "feeValue": {
+        "label": "Fee Value",
+        "error": "Fee is required",
+        "placeholder": "Enter rewards fee value",
+        "errorRange": "Fee value should greater than or equal to 0 and less than or equal to 100"
+      },
+      "brandName": {
+        "label": "Name",
+        "error": "Brand name is required"
+      },
+      "owner": {
+        "label": "Owner",
+        "error": "Owner is required"
+      },
+      "portfolioName": {
+        "label": "Name",
+        "error": "Portfolio name is required"
+      },
+      "portfolioBrands": {
+        "label": "Brands",
+        "error": "At least one brand is required"
+      }
+    },
+    "info": {
+      "xeroCreateButton": "Connect Xero account",
+      "xeroUpdateButton": "Update Xero account",
+      "name": "Name",
+      "country": "Country",
+      "city": "City",
+      "billing": "Billing",
+      "paidFrom": "Paid From",
+      "paidTo": "Paid To",
+      "plan": "Plan",
+      "email": "Email",
+      "balance": "Balance",
+      "trialPeriod": "Trial Period",
+      "rewardsFee": "Rewards Fee",
+      "ethAddress": "Etherium Address",
+      "timezone": "Timezone settings",
+      "budget": "Budget"
+    },
+    "xero": {
+      "update": "Update",
+      "connect": "Connect",
+      "disconnect": "Disconnect",
+      "billingSubheader": "Billing Information",
+      "invoiceSubheader": "Invoice Frequency and Options",
+      "attention": "Company attention name",
+      "contactName": "Contact name",
+      "email": "Company attention email",
+      "address1": "Company address1",
+      "address2": "Company address2",
+      "postcode": "Postcode",
+      "dueDate": "Due date",
+      "dueWeek": "Week",
+      "dueMonth": "Month",
+      "dueYear": "Year",
+      "state": "Company state",
+      "country": "Company Country",
+      "invoiceLabel": "Invoice Frequency and Options",
+      "frequency": "Frequency",
+      "frequencyWeek": "Weekly",
+      "frequencyMonth": "Monthly",
+      "frequencyYear": "Annually",
+      "invoiceTime": "Invoice time",
+      "adjustment": "Adjustment",
+      "adjustmentHelp": "Turn on enable budget adjustment",
+      "segmentation": "Segmentation",
+      "createSuccess": "The item was connected successfully",
+      "updateSuccess": "The item was updated successfully",
+      "disconnectSuccess": "The item was disconnected successfully",
+      "failed": "Failed saving",
+      "failedDisconnect": "Failed disconnecting"
+    },
+    "list": {
+      "header": "Our Customers",
+      "placeholder": "No customers found.",
+      "constrainsHeader": "Customers constrains",
+      "brandsHeader": "Customers brands",
+      "portfoliosHeader": "Customers portfolios"
+    },
+    "actions": {
+      "budgetTitle": "Set Budget",
+      "paidTitle": "Set Paid Period",
+      "trialTitle": "Set Trial Period",
+      "removeTitle": "Remove Customer Card Data",
+      "removeParticipant": "Delete Participant",
+      "rewardsFee": "Update Rewards Fee",
+      "timezone": "Set Timezone",
+      "addBrand": "Add Brand",
+      "addPortfolio": "Add Portfolio",
+      "editPortfolio": "Edit Portfolio"
+    },
+    "sagas": {
+      "setPaidPeriodSuccess": "Successfully set paid period",
+      "setFlagSuccess": "Successfully set flags",
+      "setTrialPeriodSuccess": "Successfully set trial period",
+      "deleteCustomerDataSuccess": "Customer data has been deleted",
+      "removeParticipant": "Participant has been deleted",
+      "rewardsFee": "Rewards fee has been updated",
+      "budget": "Budget has been updated",
+      "putParticipantProfileSuccess": "The information about user was successfully updated."
+    },
+    "dialog": {
+      "customerNotFound": "Participant not found",
+      "dateNotFound": "Date is required",
+      "setPaidPeriodHeader": "Set Paid Period",
+      "rewardsFeeHeader": "Rewards Fee",
+      "setPaidPeriodDate": "Date",
+      "setBudget": "Set Budget",
+      "setTrialPeriodHeader": "Set Trial Period",
+      "setTrialPeriodDate": "To Date",
+      "removeCustomerDataHeader": "Remove customer card data from profile?",
+      "removeParticipant": "Are you sure to remove this participant?",
+      "setTimezoneHeader": "Timezone",
+      "confirmDeleteConstraints": "Are you sure you want to delete this constraint?",
+      "confirmDeleteBrand": "Are you sure you want to delete this brand?",
+      "confirmDeletePortfolio": "Are you sure you want to delete this portfolio?",
+      "addBrand": "Add new brand",
+      "editBrand": "Edit brand",
+      "addPortfolio": "Add new portfolio",
+      "editPortfolio": "Edit portfolio",
+      "setTimezoneHeaderPlaceholder": "Add your timezone here"
+    }
+  },
+  "storecards": {
+    "deleteCard": "Delete card",
+    "addCountry": "Add country",
+    "addCard": "Add store card",
+    "confirmDelete": "Are you sure you want to delete {name}?",
+    "headerConfiguration": "Store cards configuration",
+    "list": {
+      "notAvailable": "No store cards available"
+    },
+    "form": {
+      "nameHeader": "Name",
+      "colorHeader": "Background color",
+      "image_big": "Image big",
+      "image_small": "Image small"
+    },
+    "dialog": {
+      "addCountryHeader": "Add country to list",
+      "setCountryHeader": "Country",
+      "countryRequired": "Country is required"
+    },
+    "tabs": {
+      "configuration": "Configuration",
+      "cardsReports": "Cards Reports",
+      "receiptsReports": "Receipts Reports"
+    }
+  },
+  "cashout": {
+    "successUpdated": "Settings updated successfully",
+    "header": "Cashout parameters",
+    "tab_title": {
+      "setting": "Cashout Settings",
+      "moderation": "Withdrawal Moderation"
+    },
+    "api": {
+      "header": "External  API",
+      "enabled": "Enabled",
+      "cors": "CORS"
+    },
+    "moderation": {
+      "header": "Cashout Requests",
+      "sub_header": "Please moderate transaction requests",
+      "table": {
+        "first_name": "First Name",
+        "last_name": "Last Name",
+        "account": "Account",
+        "amount": "Amount",
+        "submitted": "Submitted",
+        "fees": "Fees",
+        "status": "Status",
+        "actions": "Actions",
+        "noData": "Well done! Everything seems to be on track!",
+        "date": "Date",
+        "type": "Type",
+        "address": "Address/Routine"
+      },
+      "modal": {
+        "transaction_history": "Transactions History",
+        "full_history": "View full history",
+        "decline": "Decline",
+        "approve": "Approve"
+      }
+    },
+    "cashout": {
+      "header": "Cashout",
+      "enabled": "Enabled",
+      "fake_mode": "Fake mode",
+      "use_mock_price": "Use mock price",
+      "shping_eth_mock_price": "Mock price for shping/eth",
+      "eth_usd_mock_price": "Mock price for eth/usd",
+      "aba_recipients": "Recipents ABA",
+      "uff_recipients": "Recipents UFF",
+      "estimate_aud_price_edge": "Estimate prices (AUD)",
+      "own_fee": "Service fee %",
+      "gas_percent": "GAS %",
+      "transaction_fee": "Transaction fee"
+    },
+    "topup": {
+      "header": "Topup",
+      "enabled": "Enabled",
+      "fake_mode": "Fake mode",
+      "alert_recipients": "Recipients of notifications on topup"
+    },
+    "fake_inspector": {
+      "header": "Fake inspector",
+      "enabled": "Enabled",
+      "notification_recipients": "Recipients of notifications on status change"
+    },
+    "cashout_booster": {
+      "header": "Cashout Booster",
+      "basic": "Basic",
+      "bronze": "Bronze",
+      "silver": "Silver",
+      "gold": "Gold",
+      "platinum": "Platinum",
+      "div": "Cashout booster AUD amount",
+      "ambassador": "Ambassador"
+    },
+    "market_making": {
+      "header": "Market Maker",
+      "timex": {
+        "name": "Timex Exchange",
+        "enabled": "Enabled",
+        "fake_mode": "Fake mode",
+        "timer": "Trigger interval",
+        "sell_time_counter": "Sales trigger interval",
+        "buy_time_counter": "Purchase trigger interval",
+        "aud_balance": "Bidding budget (AUD)",
+        "buy_order_percent": "Budget for shopping iterations in percents",
+        "balance_check_interval": "Balance check interval",
+        "balance_threshold_in_percent": "Balance treshold in percents",
+        "trading_range": "Trading range",
+        "trading_range_min": "Min",
+        "trading_range_max": "Max"
+      },
+      "liquid": {
+        "name": "Liquid Exchange",
+        "enabled": "Enabled",
+        "start_bot": "Start Bot",
+        "fake_mode": "Fake mode",
+        "cors": "Cors Origin",
+        "currencyPairs": "Trading Pairs",
+        "id": "ID",
+        "pair": "Pair",
+        "spread_diff": "Spread Diff",
+        "ask_increase": "Ask Increase",
+        "bid_decrease": "Bid Decrease",
+        "min_ask_sum": "Min Ask",
+        "max_ask_sum": "Max Ask",
+        "min_bid_sum": "Min Bid",
+        "max_bid_sum": "Max Bid",
+        "release": "Release",
+        "defaultSettings": "Default Settings",
+        "currency": "Currency",
+        "alerts": {
+          "updateSuccess": "Status updated successfully",
+          "updateFail": "Failed to update status"
+        }
+      }
+    },
+    "banks_holidays": {
+      "header": "Banks holidays",
+      "AU": "Australia",
+      "SG": "Singapore"
+    }
+  },
+  "users": {
+    "timeLineMessageSuccess": "Timeline message sent!",
+    "header": "Mobile Users",
+    "placeholder": "No mobile users found.",
+    "timelineForm": {
+      "header": "Send timeline notification",
+      "label": "Message",
+      "placehlder": "Enter message",
+      "messageError": "Message is required",
+      "send": "Send"
+    },
+    "rewardsBanForm": {
+      "header": "Rewards ban",
+      "dateLabel": "Banned to",
+      "messageLabel": "Reason",
+      "messagePlaceholder": "Enter reason",
+      "ban": "Ban",
+      "reasonError": "Reason is required",
+      "dateError": "Date is required"
+    },
+    "form": {
+      "notifyOnBuddies": "Notify on buddies",
+      "notifyOnReviews": "Notify on reviews",
+      "notifyOnRewards": "Notify on rewards",
+      "remindToScan": "Remind to scan",
+      "remindersNotifications": "Reminders notifications",
+      "brands": "Brands",
+      "userBanned": "This user is currently banned!",
+      "sendTimelineMessage": "Send timeline message",
+      "permanentBanUser": "Permanent ban user",
+      "unbunUser": "Unban user",
+      "rewardsBanUser": "Rewards ban user",
+      "clearRewardsBan": "Clear rewards ban"
+    },
+    "tableHeaders": {
+      "firstName": "First name",
+      "lastName": "Last name",
+      "email": "Email address",
+      "created": "Created",
+      "totalBalance": "Total balance",
+      "accountBalance": "Account balance",
+      "contributorStatus": "Contributor status",
+      "lastAccess": "Last access",
+      "device": "Device",
+      "level": "Level",
+      "permanentBanStatus": "Permanent ban status",
+      "rewardsBanStatus": "Rewards ban status",
+      "notifyOnBuddies": "Notify on buddies",
+      "notifyOnReviews": "Notify on reviews",
+      "notifyOnRewards": "Notify on rewards",
+      "remindToScan": "Remind to scan",
+      "remindersNotifications": "Reminders notifications",
+      "brandsShoutouts": "Brands shoutouts"
+    },
+    "filter": {
+      "userIdLabel": "User ID",
+      "userIdPlaceholder": "Enter user ID",
+      "firstNameLabel": "First name",
+      "created": "Created",
+      "firstNamePlaceholder": "Enter first name",
+      "lastNameLabel": "Last name",
+      "lastNamePlaceholder": "Enter last name",
+      "emailLabel": "Email address",
+      "phoneNumber": "Phone number",
+      "phoneNumberPlaceholder": "Enter phone number",
+      "emailPlaceholder": "Enter email address",
+      "totalBalance": "Total balance",
+      "accountBalance": "Account balance",
+      "contributorStatus": "Contributor status",
+      "lastAccess": "Last access",
+      "deviceLabel": "Device",
+      "devicePlaceholder": "Select device",
+      "transactionHash": "Transaction Hash",
+      "transactionHashPlaceholder": "Enter transaction hash",
+      "cashoutAccount": "Cashout Account Name/Number",
+      "cashoutAccountPlaceholder": "Enter cashout account name/number",
+      "ethAddress": "Etherium Address",
+      "ethAddressPlaceholder": "Enter etherium address",
+      "permanentBanStatus": "Permanent ban status",
+      "registrationDateLabel": "Registration date",
+      "registrationStartDatePlaceholder": "Registration start date",
+      "registrationEndDatePlaceholder": "Registration end date",
+      "lastAccessLabel": "Last access",
+      "lastAccessStartPlaceholder": "Last access start date",
+      "lastAccessEndPlaceholder": "Last access end date",
+      "levelLabel": "Levels",
+      "levelPlaceholder": "Select level",
+      "languageLabel": "Language",
+      "languagePlaceholder": "Select language",
+      "countryLabel": "Country",
+      "countryPlaceholder": "Select country",
+      "banStatusLabel": "Ban status",
+      "banStatusPlaceholder": "Select ban status",
+      "totalDaysWithScansHeader": "Total days with scans",
+      "totalDaysWithoutScansHeader": "Total days without scans",
+      "totalActiveDaysRatioHeader": "Total active days ratio",
+      "totalInactiveDaysRatioHeader": "Total inactive days ratio",
+      "totalBuddiesHeader": "Total buddies",
+      "totalCashoutTransactionsHeader": "Total cashout transactions",
+      "totalCashoutValueShpingHeader": "Total value of cashout",
+      "totalLinkedBankAccountsHeader": "Linked bank accounts",
+      "totalErc20TransactionsHeader": "Total transactions to ERC20",
+      "totalErc20ValueShpingHeader": "Total transferred to ERC20",
+      "totalErc20AccountsHeader": "Linked ERC20 accounts",
+      "totalAvearageScansPerActiveDayHeader": "Average scans per active day",
+      "totalBuddiesInvitationsAcceptedHeader": "Buddies invited accepted",
+      "totalBuddiesInvitationsSentHeader": "Buddies Invite Link Sent",
+      "totalBuddiesReceivedInvitationsAcceptedHeader": "Invited by others accepted",
+      "totalReviewsAcceptedHeader": "Total accepted reviews",
+      "totalReviewsPendingHeader": "Total pending reviews",
+      "totalReviewsRejectedHeader": "Total rejected reviews",
+      "totalScansWithUncollectedCoinsHeader": "Number of scans with uncollected coins",
+      "totalUncollectedCoinsHeader": "Total uncollected coins",
+      "totalDaysFromLastAccessHeader": "Days with no activity",
+      "linkedGoogleFlagHeader": "Linked Google",
+      "linkedWechatFlagHeader": "Linked WeChat",
+      "linkedVKFlagHeader": "Linked VK",
+      "linkedFBFlagHeader": "Linked FB",
+      "linkedEmailFlagHeader": "Linked Email",
+      "linkedPhoneFlagHeader": "Linked Phone",
+      "linkedInstagramFlagHeader": "Linked Instagram",
+      "linkedTwitterFlagHeader": "Linked Twitter",
+      "totalTimelineProductHeader": "Product accessed from the timeline",
+      "totalTimelineVideoHeader": "Video watched from the timeline",
+      "totalTimelineReviewsHeader": "Reviews from the timeline",
+      "totalTimelineMinutesHeader": "Time spent on the timeline (minutes)",
+      "systemRewardedVideoHeader": "Total System rewarded video",
+      "brandRewardedVideoHeader": "Total Brand rewarded video"
+    },
+    "scans": {
+      "header": "User scans",
+      "placeholder": "No scans found for user",
+      "productId": "Product ID",
+      "productName": "Product name",
+      "code": "Code",
+      "accuracy": "Accuracy",
+      "country": "Country",
+      "language": "Language",
+      "longitude": "Longitude",
+      "latitude": "Latitude"
+    },
+    "rewards": {
+      "header": "Rewards",
+      "placeholder": "No rewards found for user",
+      "campaignId": "Campaign ID",
+      "ts": "Date",
+      "approvedEvents": "Approved events",
+      "approvedCoins": "Approved coins",
+      "pendingCoins": "Pending coins",
+      "closedCoins": "Closed coins",
+      "userCoinRate": "User coin rate"
+    },
+    "buddies": {
+      "header": "Buddies list",
+      "placeholder": "No buddies found",
+      "ts": "TS",
+      "firstName": "First name",
+      "lastName": "Last name",
+      "levelType": "Level type",
+      "coins": "Coins"
+    },
+    "timeline": {
+      "header": "User feed",
+      "placeholder": "No timeline found",
+      "reviewText": "A new review {review} for the scanned product {product}",
+      "text": "Text"
+    },
+    "banHistory": {
+      "header": "User ban history",
+      "placeholder": "No ban history found",
+      "from": "From",
+      "to": "To",
+      "ruleId": "Rule ID",
+      "reason": "Reason"
+    },
+    "transactionHistory": {
+      "header": "User transaction history",
+      "placeholder": "No transaction history found",
+      "date": "Date",
+      "type": "Type",
+      "amount": "Amount",
+      "success": "Success",
+      "failure": "Failure",
+      "status": "Status",
+      "address": "Transfer to wallet",
+      "deposit": "Deposit",
+      "cashout": "Cash out",
+      "transfer": {
+        "address": "Address",
+        "hash": "Transaction ID"
+      },
+      "cashoutInfo": {
+        "name": "Name",
+        "description": "Description",
+        "bank": "Bank",
+        "accountNumber": "Account Number",
+        "location": "location",
+        "bsb": "Bank State Branch (BSB)",
+        "postcode": "Postcode"
+      }
+    },
+    "userLevel": {
+      "header": "User level info",
+      "placeholder": "No level info found",
+      "name": "Name: {name}",
+      "maxPercentages": "Max percentages: {maxPercentages}",
+      "scansLeft": "Scans left: {scansLeft}",
+      "todo": "Todo: ",
+      "type": "Type: {type}"
+    },
+    "contributionLevel": {
+      "header": "Contribution level info",
+      "placeholder": "No contribution info found",
+      "accuracy": "Accuracy: {accuracy}",
+      "products": "Products: {products}",
+      "maxPercentages": "Max percentages: {maxPercentages}",
+      "currentPercentages": "Current percentages: {currentPercentages}",
+      "daysLeft": "Days left: {daysLeft}",
+      "type": "Type: {type}"
+    }
+  }
+}

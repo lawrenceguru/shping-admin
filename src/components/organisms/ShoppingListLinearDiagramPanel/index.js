@@ -1,0 +1,3 @@
+import ShoppingListLinearDiagramPanel from './ShoppingListLinearDiagramPanel'
+
+export default ShoppingListLinearDiagramPanel

@@ -1,0 +1,148 @@
+html {
+  overflow: hidden;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.spinner-container {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: white;
+  z-index: 101;
+}
+
+.spinner {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  width: 700px;
+  height: 120px;
+  text-align: center;
+  font-size: 70px;
+}
+
+.spinner > div {
+  background-color: #ef3d47;
+  height: 100%;
+  width: 6px;
+  display: inline-block;
+  margin-right: 10px;
+  -webkit-animation: sk-stretchdelay 1.2s infinite ease-in-out;
+  animation: sk-stretchdelay 1.2s infinite ease-in-out;
+}
+
+.spinner.loader {
+  position: relative;
+  height: 70px;
+  width: inherit;
+  font-size: inherit;
+}
+.spinner.loader > div {
+  background-color: white;
+}
+
+.spinner .rect2 {
+  -webkit-animation-delay: -1.1s;
+  animation-delay: -1.1s;
+}
+
+.spinner .rect3 {
+  -webkit-animation-delay: -1s;
+  animation-delay: -1s;
+}
+
+.spinner .rect4 {
+  -webkit-animation-delay: -0.9s;
+  animation-delay: -0.9s;
+}
+
+.spinner .rect5 {
+  -webkit-animation-delay: -0.8s;
+  animation-delay: -0.8s;
+}
+
+@-webkit-keyframes sk-stretchdelay {
+  0%,
+  40%,
+  100% {
+    -webkit-transform: scaleY(0.4);
+  }
+  20% {
+    -webkit-transform: scaleY(1);
+  }
+}
+
+@keyframes sk-stretchdelay {
+  0%,
+  40%,
+  100% {
+    transform: scaleY(0.4);
+    -webkit-transform: scaleY(0.4);
+  }
+  20% {
+    transform: scaleY(1);
+    -webkit-transform: scaleY(1);
+  }
+}
+
+.zh-app {
+  color: white;
+  font-weight: 900;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+}
+
+/* Customize website's scrollbar like Mac OS
+Not supports in Firefox and IE */
+
+.styled-scroll::-webkit-scrollbar,
+.ant-select-dropdown-menu::-webkit-scrollbar {
+  background-color: #fff;
+  width: 16px;
+}
+
+.styled-scroll::-webkit-scrollbar-track,
+.ant-select-dropdown-menu::-webkit-scrollbar-track {
+  background-color: #fff;
+}
+.styled-scroll::-webkit-scrollbar-track:hover,
+.ant-select-dropdown-menu::-webkit-scrollbar-track:hover {
+  background-color: #f4f4f4;
+}
+
+.styled-scroll::-webkit-scrollbar-thumb,
+.ant-select-dropdown-menu::-webkit-scrollbar-thumb {
+  background-color: #babac0;
+  border-radius: 16px;
+  border: 5px solid #fff;
+}
+.styled-scroll::-webkit-scrollbar-thumb:hover,
+.ant-select-dropdown-menu::-webkit-scrollbar-thumb:hover {
+  background-color: #a0a0a5;
+  border: 4px solid #f4f4f4;
+}
+
+.styled-scroll::-webkit-scrollbar-button,
+.ant-select-dropdown-menu::-webkit-scrollbar-button {
+  display: none;
+}
+
+.styled-scroll,
+.highcharts-container,
+.highcharts-container svg {
+  width: 100% !important;
+}

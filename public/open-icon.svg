@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="25px" viewBox="0 0 24 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 57.1 (101010) - https://sketch.com -->
+    <title>DFD70F33-92D0-4B83-AB32-0A7F90C9027B</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path d="M13.6,13.6 L2.4,13.6 L2.4,2.4 L8,2.4 L8,0.8 L2.4,0.8 C1.512,0.8 0.8,1.52 0.8,2.4 L0.8,13.6 C0.8,14.48 1.512,15.2 2.4,15.2 L13.6,15.2 C14.48,15.2 15.2,14.48 15.2,13.6 L15.2,8 L13.6,8 L13.6,13.6 L13.6,13.6 Z M9.6,0.8 L9.6,2.4 L12.472,2.4 L4.608,10.264 L5.736,11.392 L13.6,3.528 L13.6,6.4 L15.2,6.4 L15.2,0.8 L9.6,0.8 L9.6,0.8 Z" id="path-1"></path>
+    </defs>
+    <g id="Dashboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Shping-1" transform="translate(-707.000000, -978.000000)">
+            <g id="Group-2" transform="translate(285.000000, 210.000000)">
+                <g id="Products-Stat-Card" transform="translate(2.000000, 630.000000)">
+                    <g id="content" transform="translate(0.000000, 60.000000)">
+                        <g id="sony-xperia-x-compact" transform="translate(44.000000, 60.000000)">
+                            <g id="icons" transform="translate(376.000000, 18.000000)">
+                                <g id="3.-Icons/ic_open_in_new" transform="translate(4.000000, 4.000000)">
+                                    <mask id="mask-2" fill="white">
+                                        <use xlink:href="#path-1"></use>
+                                    </mask>
+                                    <g id="Icon"></g>
+                                    <g id="5.-Colors/Gray-85" mask="url(#mask-2)" fill="#D8D8D8">
+                                        <g transform="translate(-3.000000, -3.000000)" id="Gray-85">
+                                            <rect x="1" y="1" width="21" height="21"></rect>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

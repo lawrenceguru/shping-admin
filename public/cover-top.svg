@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1440px" height="58px" viewBox="0 0 1440 58" version="1.1">
+  <!-- Generator: Sketch 56.2 (81672) - https://sketch.com -->
+  <title>cover-top</title>
+  <desc>Created with Sketch.</desc>
+  <defs>
+    <rect id="path-1" x="0" y="0" width="1440" height="60"/>
+    <path d="M600.999032,18.1833674 C866.426084,39.8182965 1078.99505,74.872949 1440,27.1158935 L1440,-273.734445 L0,-273.734445 L0,27.1158935 C110.34474,11.1471687 356.035016,-1.78397907 600.999032,18.1833674 Z" id="path-3"/>
+    <filter x="-0.6%" y="-2.0%" width="101.2%" height="105.2%" filterUnits="objectBoundingBox" id="filter-4">
+      <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur stdDeviation="2.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"/>
+      <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.0963450612 0" type="matrix" in="shadowBlurOuter1"/>
+    </filter>
+  </defs>
+  <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <g id="cover-top">
+      <mask id="mask-2" fill="white">
+        <use xlink:href="#path-1"/>
+      </mask>
+      <g id="Rectangle"/>
+      <g id="Mask" mask="url(#mask-2)">
+        <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"/>
+        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-3"/>
+      </g>
+      <rect id="Rectangle" fill="#FFFFFF" mask="url(#mask-2)" x="0" y="-80" width="1440" height="85"/>
+    </g>
+  </g>
+</svg>
